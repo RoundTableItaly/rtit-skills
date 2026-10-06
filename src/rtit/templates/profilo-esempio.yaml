@@ -1,0 +1,90 @@
+# Profilo di esempio — tavola FITTIZIA "Round Table N.99 Esempio".
+# Copia questo file come `rtit-profilo.yaml` e sostituisci i valori.
+# Tutto è facoltativo tranne `id`: le funzioni senza dati si spengono da sole.
+#
+# Mettilo nella cartella principale dell'archivio condiviso, così tutto il direttivo
+# usa lo stesso profilo. PRIVACY: contiene nomi e telefoni del direttivo: l'archivio
+# condiviso è accessibile solo al direttivo; MAI in un repository pubblico.
+
+versione: 1
+id: rt99-esempio
+livello: tavola              # tavola | zona | nazionale
+nome: "Round Table N.99 Esempio"
+sigla: "RT 99 Esempio"
+nome_esteso: "Round Table 99 – Esempio"   # usato in "ai membri d'onore ed amici della …"
+citta: "Esempio"                         # luogo di emissione del bollettino
+zona: "Zona N"                           # usato nei destinatari "e p.c."
+fuso_orario: Europe/Rome
+# Anno sociale (AAAA-AAAA): inizia la domenica dopo l'AGM, che si tiene di sabato, di solito il primo
+# sabato di giugno. Se il Comitato Nazionale fissa l'AGM in un'altra data, scrivila qui per quell'anno
+# (date esatte nell'App RTIT, strumento `list_statutory_years`):
+# agm: {"2027": "2027-06-05"}
+quota_default: 25                        # € a persona proposti nei pack evento
+
+intestazione:                            # colonna sinistra del bollettino
+  sito: "www.esempio.it"
+  ritrovi: "1° e 3° mercoledì del mese"
+  sede:
+    - "Hotel Esempio"
+    - "Via Roma, 1"
+    - "00000, Esempio (XX)"
+  charter: "1 gennaio 2000"
+  tavola_madrina: "RT 0 Esempio"
+  loghi: []                              # fino a 2 PNG (sinistra, destra), percorsi relativi a questo file
+
+direttivo:
+  anno: "2026-2027"
+  membri:                                # ruolo + nome (+ telefono per chi firma i bollettini); cariche dello statuto, art. 49
+    - { ruolo: Presidente, nome: "Mario Rossi", telefono: "+39 000 000 0001" }
+    - { ruolo: Vicepresidente, nome: "Luca Bianchi" }
+    - { ruolo: Past President, nome: "Paolo Verdi" }
+    - { ruolo: Segretario, nome: "Giovanni Neri", telefono: "+39 000 000 0002" }
+    - { ruolo: Tesoriere, nome: "Andrea Gialli" }
+    - { ruolo: Corrispondente, nome: "Matteo Viola" }
+    - { ruolo: Consiglieri, nome: "Marco Blu" }
+
+bollettino:
+  # destinatari_pc: []                   # default (tavola): Presidente, Vice e Segretario Nazionale + Comitato di Zona + Presidenti delle Tavole della Zona
+  aperta_a: "Tablers, ex Tablers, aspiranti e amici"
+  # template: "bollettino-tavola.docx"   # template Word personalizzato (con i segnaposto {{ … }})
+
+archivio:                                # la cartella CONDIVISA della tavola: tutto il lavoro sta qui
+  # percorso: "."                                     # questo file sta già nella cartella principale dell'archivio
+  # percorso: "G:/Drive condivisi/RT 99 Esempio"     # Google Drive per desktop
+  # percorso: "C:/Users/<utente>/OneDrive - RT99"     # OneDrive / SharePoint
+  # percorso: "~/Dropbox/RT 99 Esempio"               # Dropbox, Nextcloud, qualsiasi cartella sincronizzata
+  servizio: cartella                     # google-drive | onedrive | sharepoint | dropbox | nextcloud | cartella
+  link: markdown                         # markdown | wikilink (se il direttivo usa Obsidian)
+  # Struttura (percorsi relativi alla cartella principale; {anno} = anno sociale, es. 2026-2027).
+  # I bollettini stanno nella cartella Bollettini/ di ogni evento, senza copie altrove.
+  documenti_legali: "Documenti legali"
+  cartelle_legali: ["Statuto e regolamenti", "Fiscale e PEC", "Banca", "Loghi e modelli"]
+  anni: "Anni sociali/{anno}"
+  eventi: "Anni sociali/{anno}/Eventi"
+  direttivo: "Anni sociali/{anno}/Direttivo"
+  tesoreria: "Anni sociali/{anno}/Tesoreria"
+  comunicazione: "Anni sociali/{anno}/Comunicazione"
+  indice_anno: "Anni sociali/{anno}/_Indice {anno}.md"
+  cartelle_evento: ["Bollettini", "Form", "Altri documenti"]
+
+calendario:
+  # ical_url: "https://calendar.google.com/calendar/ical/<id-calendario>/public/basic.ics"
+  giorni_indietro: 7
+  giorni_avanti: 120
+
+app_rtit:                                # https://app.roundtable.it — trova l'id con `rtit app-rtit unita --cerca <nome>`
+  # organization_unit_id: 0
+  # organization_unit_slug: "rt-99-esempio"
+  # area_slug: "zona-esempio"
+  mesi_planner: 3
+  soglia_punteggio: 90
+
+classificazione:                         # parole nei titoli del calendario → cosa fare
+  ignora: [ritrovo, riunione mensile]
+  direttivo: [consiglio di tavola, consiglio direttivo, consiglio di zona, "\\bconsiglio\\b", direttivo, "\\bcd\\b"]
+  solo_bollettino: []
+  sociale: [cena, aperitivo, visita, gita, festa, grigliata]
+
+promemoria:                              # giorni prima dell'evento per gli avvisi
+  bollettino_giorni: 14
+  tablerworld_giorni: 21

@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv venv && uv pip install -e ".[dev]"
+      - run: uv run ruff check src tests tools
+      - run: uv run ruff format --check src tests tools
+      - run: uv run pytest -q
+      - name: Controllo fughe di dati
+        env:
+          RTIT_LEAK_DENYLIST: ${{ secrets.RTIT_LEAK_DENYLIST }}
+        run: uv run python tools/check_leaks.py
+      - name: Pacchetti di rilascio
+        run: uv run python tools/build_release.py
+      - name: Carica i pacchetti
+        if: matrix.python == '3.12'
+        uses: actions/upload-artifact@v4
+        with:
+          name: rtit-pacchetti
+          path: dist/
+          if-no-files-found: error

@@ -1,0 +1,18 @@
+# Fonti
+
+Salvo lo Statuto Nazionale (copiato integralmente), i documenti originali **non** sono nel repository: qui sono citati, insieme alle mappe di copertura che indicano cosa è stato distillato e dove. Anche l'Annuario non è nel repository: ne è riportata solo una **sintesi** delle parti normative e procedurali, senza nomi né recapiti. In caso di dubbio **prevale sempre il documento originale**, e fra i documenti **lo Statuto**.
+
+| Documento | Autore / edizione | Dove trovarlo | Distillato in | Mappa di copertura |
+| --- | --- | --- | --- | --- |
+| *Statuto Nazionale Round Table Italia* | Assemblea Straordinaria RTIT, approvato l'8 giugno 2024 (PDF "uso bollo 2024") | Segreteria Nazionale; Tabler World → Documenti → "Statuto" | `skills/rt-conoscenza/references/statuto.md` (copia integrale) | [statuto-copertura.md](statuto-copertura.md) |
+| *Annuario Round Table Italia 2025-2026* | Round Table Italia (Editore Nazionale); edizione chiusa in stampa il 12 settembre 2025, 564 pagine PDF | Segreteria Nazionale; Tabler World → archivio digitale degli annuari | `skills/rt-conoscenza/references/annuario-regolamenti.md` (sintesi) | [annuario-copertura.md](annuario-copertura.md) |
+| *Manuale del buon Presidente — Guida operativa per la gestione della Tavola* | Comitato Nazionale RTIT, AS 2025-2026 | Documento del Comitato Nazionale per i Presidenti di Tavola; se non lo hai, chiedilo al Comitato Nazionale (`CN@roundtable.it`) | `skills/rt-presidente/references/` | [manuale-presidente-copertura.md](manuale-presidente-copertura.md) |
+| *RTIT University: ritorno alle basi* | Workshop RTIT University, marzo 2025; autore di riferimento: Tobias Eder (ex IRO ed ex P.R.O. nazionale) | [PDF su Tabler World](https://roundtable-prd.s3.eu-central-1.amazonaws.com/1957/documents/39172/649b1d0d-dafd-407d-be4e-2e36cb3c6c59/RTIT_University_ritorno_alle_basi.pdf.pdf) | `skills/rt-crescita/references/rtit-university.md` | [rtit-university-copertura.md](rtit-university-copertura.md) |
+| *Strategia LinkedIn — Round Table Italia* | Round Table Italia; caso di studio: Tavola di Rovereto | [PDF su Tabler World](https://roundtable-prd.s3.eu-central-1.amazonaws.com/1957/documents/39172/eef6f065-af2d-42e9-9a38-a300a66a13e4/Strategia_LinkedIn_-_Round_Table_Italia.pdf) | `skills/rt-crescita/references/linkedin.md` | [linkedin-copertura.md](linkedin-copertura.md) |
+| *Linee guida utilizzo logo* | Comitato Nazionale RTIT, AS 2024-2025, versione 2 (approvata dal CN il 14.10.2024) | [PDF su Tabler World](https://roundtable-prd.s3.eu-central-1.amazonaws.com/1957/documents/38571/d687161a-61c5-40a1-a76a-67fa4bd158d4/Linee_guida_utilizzo_logo_AS_2024-2025_Versione_2.pdf) | `skills/rt-logo/references/` | [linee-guida-logo-copertura.md](linee-guida-logo-copertura.md) |
+| *Vademecum della Comunicazione — Linee guida operative per Tavole, Zone e soci* | P.R.O. Nazionale (responsabile comunicazione nazionale) e Team Comunicazione, Comitato Nazionale RTIT, AS 2026-2027 | Documento del Comitato Nazionale (P.R.O. Nazionale) | `skills/rt-comunicazione/references/` | [vademecum-comunicazione-copertura.md](vademecum-comunicazione-copertura.md) |
+| Sintesi di Manuale, RTIT University e Strategia LinkedIn (vademecum interno), poi allineata a Statuto e Annuario | — | — | `skills/rt-conoscenza/references/best-practice.md` | [best-practice-copertura.md](best-practice-copertura.md) |
+
+I nomi di Tobias Eder e della Tavola di Rovereto sono riportati per scelta esplicita: sono le due eccezioni alla regola "nessun dato reale" del repository (vedi [audit-statuto-2026.md](audit-statuto-2026.md)).
+
+Le versioni cambiano ogni anno sociale: quando esce una nuova edizione, aggiorna il distillato e la mappa di copertura (vedi [CONTRIBUTING.md](../../CONTRIBUTING.md)).

@@ -1,0 +1,10 @@
+{
+  "name": "rtit-skills",
+  "version": "0.2.0",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "round-table-italia": {
+      "httpUrl": "https://app.roundtable.it/mcp/"
+    }
+  }
+}
