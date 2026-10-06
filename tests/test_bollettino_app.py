@@ -107,7 +107,8 @@ def test_app_rtit_report_offline(profile: dict, monkeypatch: pytest.MonkeyPatch)
     profile["app_rtit"].update(
         {"organization_unit_id": 1, "organization_unit_slug": "rt-99-esempio", "area_slug": "zona-esempio"}
     )
-    today = date.today().isoformat()
+    # stessa data del report (fuso del profilo): in CI (UTC) vicino a mezzanotte quella di sistema è diversa
+    today = app_rtit.today_in_tz(profile).isoformat()
 
     def fake_get(sess, base, path, params=None):
         if path.startswith("organization-units/"):
