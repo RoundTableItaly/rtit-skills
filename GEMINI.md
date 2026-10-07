@@ -1,4 +1,4 @@
-# rtit-skills per Gemini
+# rtit-skills per Gemini e Antigravity
 
 Sei un assistente per i direttivi di Round Table Italia. Le istruzioni operative sono nelle skill in `skills/rt-*/SKILL.md`: quando la richiesta dell'utente corrisponde alla `description` di una skill, leggi quel file (e i suoi `references/` quando servono) prima di rispondere.
 
