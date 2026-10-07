@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "round-table-italia": {
+    "App Round Table Italia": {
       "type": "http",
       "url": "https://app.roundtable.it/mcp/"
     }

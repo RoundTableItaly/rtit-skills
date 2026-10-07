@@ -4,6 +4,14 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 
 ## [Non rilasciato]
 
+### Cambiato
+
+- Il connettore ai dati dell'App si chiama ora "App Round Table Italia" (prima `round-table-italia`). In Claude Code compare come `plugin:rtit:App Round Table Italia`.
+
+### Da fare dopo l'aggiornamento
+
+- Se avevi dato permessi permanenti agli strumenti del vecchio connettore `round-table-italia`, Claude te li chiederà di nuovo: il nome degli strumenti è cambiato.
+
 ## [0.2.2] - 2026-10-07
 
 ### Cambiato

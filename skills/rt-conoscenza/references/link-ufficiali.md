@@ -12,7 +12,7 @@ Il contesto d'uso dei link è in [best-practice.md](best-practice.md). La sintes
 | --- | --- |
 | App Round Table Italia: calendario eventi, schede delle tavole, statistiche | https://app.roundtable.it |
 | Planner: punteggio di sovrapposizione delle date | https://app.roundtable.it/planner |
-| Server MCP `round-table-italia` (per gli assistenti AI) | https://app.roundtable.it/mcp/ |
+| Server MCP "App Round Table Italia" (per gli assistenti AI) | https://app.roundtable.it/mcp/ |
 | Guida per collegare un assistente AI all'App | https://app.roundtable.it/ai-agents |
 
 **Round Table Events**: le fonti (Manuale del buon Presidente, Vademecum della Comunicazione) citano "Round Table Events" con indirizzi `events.roundtable.it`. È il nome precedente o alternativo dello stesso servizio (da verificare): per Planner e calendario usa gli indirizzi `app.roundtable.it` qui sopra. I link della tabella seguente restano come li riporta la fonte.

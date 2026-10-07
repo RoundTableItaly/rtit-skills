@@ -47,7 +47,7 @@ def test_package_contents(br, dist: Path, tmp_path: Path):
     assert claude["version"] == codex["version"] == gemini["version"]
     assert codex["skills"] == "./skills/"
     mcp = json.loads((base / ".mcp.json").read_text(encoding="utf-8"))
-    assert mcp["mcpServers"]["round-table-italia"]["url"] == br.MCP_URL
+    assert mcp["mcpServers"]["App Round Table Italia"]["url"] == br.MCP_URL
     for skill in br.load_skills():
         assert (base / "skills" / skill.name / "SKILL.md").is_file()
         for asset in br.EXTRA_ASSETS.get(skill.name, []):
