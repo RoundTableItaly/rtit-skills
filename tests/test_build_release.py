@@ -54,6 +54,7 @@ def test_package_contents(br, dist: Path, tmp_path: Path):
     codex_mcp = json.loads((base / ".codex-plugin" / "mcp.json").read_text(encoding="utf-8"))
     assert all(re.fullmatch(r"[A-Za-z0-9_-]+", name) for name in codex_mcp["mcpServers"])
     assert codex_mcp["mcpServers"]["round-table-italia"]["url"] == br.MCP_URL
+    assert codex_mcp["mcpServers"]["round-table-italia"]["type"] == "streamable-http"  # nome usato da Codex
     for skill in br.load_skills():
         assert (base / "skills" / skill.name / "SKILL.md").is_file()
         for asset in br.EXTRA_ASSETS.get(skill.name, []):
