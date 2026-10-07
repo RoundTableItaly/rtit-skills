@@ -4,6 +4,8 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 
 ## [Non rilasciato]
 
+## [0.3.0] - 2026-10-07
+
 ### Aggiunto
 
 - Plugin per Antigravity CLI (`agy`), il nuovo nome di Gemini CLI: si installa con `agy plugin install`.
