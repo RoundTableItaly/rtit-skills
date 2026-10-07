@@ -29,6 +29,9 @@ from pathlib import Path
 
 import yaml
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))  # per importare bump_version anche dai test
+import bump_version  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATES = ROOT / "src" / "rtit" / "templates"
 PACKAGE = "rtit-skills"  # nome dello zip; il contenuto sta alla radice, senza cartella intermedia
@@ -54,8 +57,8 @@ PLUGIN_FILES = (
     "README.md",
     "LICENSE",
 )
-# Manifest che devono dichiarare la stessa versione
-VERSIONED = (".claude-plugin/plugin.json", ".codex-plugin/plugin.json", "gemini-extension.json")
+# Manifest dei plugin: devono avere un nome (la versione la controlla bump_version)
+MANIFESTS = (".claude-plugin/plugin.json", ".codex-plugin/plugin.json", "gemini-extension.json")
 
 MCP_URL = "https://app.roundtable.it/mcp/"
 
@@ -125,14 +128,13 @@ def package_entries(skills: list[Skill], root: Path = ROOT) -> dict[str, bytes]:
         if not src.is_file():
             raise BuildError(f"File del pacchetto mancante: {rel}")
         entries[base + rel] = src.read_bytes()
-    versions = {}
-    for rel in VERSIONED:
-        manifest = json.loads(entries[base + rel])
-        if not manifest.get("name") or not manifest.get("version"):
-            raise BuildError(f"{rel}: servono name e version")
-        versions[rel] = manifest["version"]
-    if len(set(versions.values())) != 1:
-        raise BuildError(f"Versioni diverse nei manifest: {versions}")
+    for rel in MANIFESTS:
+        if not json.loads(entries[base + rel]).get("name"):
+            raise BuildError(f"{rel}: serve name")
+    try:
+        bump_version.current_version(root)  # stessa versione in tutti i file
+    except bump_version.VersionError as exc:
+        raise BuildError(str(exc)) from exc
     for skill in skills:
         entries.update(skill_entries(skill, prefix=f"{base}skills/"))
     return entries
