@@ -5,7 +5,7 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Round Table Italia",
+    "displayName": "Round Table Italia AI Skills",
     "category": "Productivity"
   }
 }
