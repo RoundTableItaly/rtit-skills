@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, develop]
   pull_request:
 
 jobs:
@@ -24,7 +24,9 @@ jobs:
         env:
           RTIT_LEAK_DENYLIST: ${{ secrets.RTIT_LEAK_DENYLIST }}
         run: uv run python tools/check_leaks.py
-      - name: Pacchetti di rilascio
+      - name: Versione e changelog coerenti
+        run: uv run python tools/bump_version.py --check
+      - name: Pacchetto di rilascio
         run: uv run python tools/build_release.py
       - name: Carica i pacchetti
         if: matrix.python == '3.12'

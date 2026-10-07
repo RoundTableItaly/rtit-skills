@@ -24,8 +24,12 @@ Istruzioni per assistenti AI che lavorano **con** queste skill (utenti dei diret
   uv run ruff format --check src tests tools
   uv run pytest -q
   uv run python tools/check_leaks.py
+  uv run python tools/bump_version.py --check
   uv run python tools/build_release.py
   ```
+
+- Rami e rilasci ([docs/rilasci.md](docs/rilasci.md)): parti sempre da `develop` aggiornato (`git fetch`, poi `git switch -c <ramo> origin/develop`), anche se la sessione si apre su `main`; apri la pull request verso `develop`. Mai push diretto su `main` o `develop`, mai force-push, mai spostare o cancellare un tag o rifare una release.
+- Se cambi skill, CLI o pacchetto, aggiungi una riga a `CHANGELOG.md` sotto "Non rilasciato". La versione non si tocca a mano: `tools/bump_version.py`, solo in un ramo `release/`.
 
 - Nessun dato reale: esempi solo con la tavola fittizia "RT 99 Esempio" (zona "Zona N"), persone come "Mario Rossi", telefoni `+39 000 000 000x`.
 - Tono: le `SKILL.md` danno del tu all'assistente, all'imperativo; i testi destinati al socio danno del tu al socio. Lingua italiana.

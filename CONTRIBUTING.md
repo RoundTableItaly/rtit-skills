@@ -6,7 +6,9 @@ Grazie! Questo progetto vive dell'esperienza delle tavole: anche una segnalazion
 
 1. Leggi [docs/privacy.md](docs/privacy.md): **nessun dato reale** (nomi, telefoni, indirizzi, calendari, ID) nel repository.
 2. Se è la tua prima pull request, firma il **CLA** ([CLA.md](CLA.md)): lo chiede il bot sulla pull request.
-3. Esegui i controlli in locale:
+3. Parti da `develop`, non da `main` (`git switch -c feature/<tema> origin/develop`), e apri la pull request verso `develop`. Il titolo segue i Conventional Commits, perché diventa il messaggio del commit.
+4. Se cambi skill, CLI o pacchetto, aggiungi una riga a [CHANGELOG.md](CHANGELOG.md) sotto "Non rilasciato", scritta per chi usa le skill.
+5. Esegui i controlli in locale:
 
 ```bash
 uv venv && uv pip install -e ".[dev]"
@@ -14,9 +16,12 @@ uv run ruff check src tests tools
 uv run ruff format --check src tests tools
 uv run pytest -q
 uv run python tools/check_leaks.py
-uv run python tools/build_release.py   # pacchetti in dist/
-claude plugin validate .               # se hai Claude Code
+uv run python tools/bump_version.py --check   # versione uguale nei file e presente nel changelog
+uv run python tools/build_release.py          # pacchetto in dist/
+claude plugin validate .                      # se hai Claude Code
 ```
+
+Rami, versioni e procedura di rilascio: [docs/rilasci.md](docs/rilasci.md).
 
 ## Come sono fatte le skill
 
