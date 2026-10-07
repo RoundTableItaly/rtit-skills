@@ -1,6 +1,6 @@
 # rtit-skills — l'assistente AI per i direttivi di Round Table Italia
 
-Skill per **Claude, ChatGPT, Gemini e altri assistenti AI** che aiutano presidenti, segretari, tesorieri e membri dei direttivi di **tavola, zona e nazionale** a lavorare per l'associazione **senza perdere nulla**: adempimenti, direttivo e verbali, eventi, bollettini, archivio condiviso, calendario, comunicazione, crescita della tavola.
+Skill per **Claude, ChatGPT, Gemini, Antigravity e altri assistenti AI** che aiutano presidenti, segretari, tesorieri e membri dei direttivi di **tavola, zona e nazionale** a lavorare per l'associazione **senza perdere nulla**: adempimenti, direttivo e verbali, eventi, bollettini, archivio condiviso, calendario, comunicazione, crescita della tavola.
 
 > Progetto della community, ospitato dall'organizzazione GitHub [RoundTableItaly](https://github.com/RoundTableItaly). Vedi [Titolarità e licenza](#titolarità-e-licenza).
 
@@ -57,7 +57,7 @@ Ogni versione pubblica un solo file nella pagina [Releases](https://github.com/R
 | Claude (app e claude.ai) | plugin: carica `rtit-skills.zip` così com'è, vedi sotto |
 | Claude Code | plugin (`.claude-plugin/`): dal marketplace su GitHub o dalla cartella estratta, vedi sotto |
 | Codex | plugin (`.codex-plugin/`): dal marketplace su GitHub o dalla cartella estratta, vedi sotto |
-| Gemini CLI | estensione (`gemini-extension.json`): dall'indirizzo del repository o dalla cartella estratta |
+| Antigravity CLI (`agy`, il vecchio Gemini CLI) | plugin (`plugin.json` alla radice): dall'indirizzo del repository o dalla cartella estratta |
 | ChatGPT e app Gemini | non hanno un formato di plugin: si usano le `SKILL.md` come istruzioni, vedi sotto |
 
 Le novità di ogni versione sono nel [CHANGELOG.md](CHANGELOG.md). Il pacchetto si genera anche in locale con `uv run python tools/build_release.py` (cartella `dist/`).
@@ -97,15 +97,15 @@ codex plugin marketplace add RoundTableItaly/rtit-skills
 
 Poi installa il plugin `rtit` dall'elenco dei plugin di Codex. Senza accesso a GitHub: estrai lo zip in una cartella e usa `codex plugin marketplace add ./rtit-skills`.
 
-### Gemini CLI
+### Antigravity CLI (il vecchio Gemini CLI)
 
-Il repository è anche un'estensione Gemini CLI, con le skill e il server MCP dell'App RTIT:
+Google ha rinominato Gemini CLI in Antigravity CLI: il comando ora è `agy`. Il repository è anche un plugin per `agy`, con le skill e il server MCP dell'App RTIT (`plugin.json` e `mcp_config.json` alla radice):
 
 ```bash
-gemini extensions install https://github.com/RoundTableItaly/rtit-skills
+agy plugin install https://github.com/RoundTableItaly/rtit-skills
 ```
 
-Senza accesso a GitHub: estrai lo zip in una cartella e usa `gemini extensions install ./rtit-skills`.
+Senza accesso a GitHub: estrai lo zip in una cartella e usa `agy plugin install ./rtit-skills`. Per controllare che il plugin sia letto bene: `agy plugin validate ./rtit-skills`.
 
 ### Altri agenti (Cursor e simili)
 

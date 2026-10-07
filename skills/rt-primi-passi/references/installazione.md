@@ -11,7 +11,7 @@ Nella pagina **Releases** del repository rtit-skills su GitHub (https://github.c
 | Claude (app e claude.ai) | Carica lo zip così com'è nella sezione dei plugin: installa tutte le skill insieme |
 | Claude Code | Estrai lo zip in una cartella (es. `rtit-skills/`): `/plugin marketplace add ./rtit-skills`, poi `/plugin install rtit@rtit-skills` |
 | Codex | Dalla cartella estratta: `codex plugin marketplace add ./rtit-skills` |
-| Gemini CLI | Dalla cartella estratta: `gemini extensions install ./rtit-skills` |
+| Antigravity CLI (`agy`, il vecchio Gemini CLI) | Dalla cartella estratta: `agy plugin install ./rtit-skills` |
 | ChatGPT (GPT) e Gemini (Gem) | Nessun pacchetto: incolla nelle istruzioni la `SKILL.md` che ti serve e carica i file di `references/` |
 
 Su Claude.ai, ChatGPT e Gemini si lavora "solo chat": il profilo è un blocco di testo (vedi [profilo-testo.md](profilo-testo.md)). Il resto di questa pagina serve solo se c'è un terminale.

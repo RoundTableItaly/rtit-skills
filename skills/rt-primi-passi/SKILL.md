@@ -14,7 +14,7 @@ Obiettivo: in 10 minuti costruire il **profilo** che rende utili tutte le altre 
 
 ## 1. Capire l'ambiente (verifica da solo, poi conferma in una frase)
 
-C'è un terminale (Claude Code, Codex, Gemini CLI…)? C'è `uv` (`uv --version`; se manca, [references/installazione.md](references/installazione.md))? Ci sono connettori (Calendar, Drive, Microsoft 365, Dropbox)? Puoi creare file o solo testo?
+C'è un terminale (Claude Code, Codex, Antigravity CLI…)? C'è `uv` (`uv --version`; se manca, [references/installazione.md](references/installazione.md))? Ci sono connettori (Calendar, Drive, Microsoft 365, Dropbox)? Puoi creare file o solo testo?
 
 - **A — Solo chat** (Claude.ai, Gemini, ChatGPT, app mobile): il profilo è un **blocco di testo** da incollare nelle istruzioni del Progetto / Gem / GPT ([references/profilo-testo.md](references/profilo-testo.md)).
 - **B — Con terminale**: il profilo è il file `rtit-profilo.yaml` ([references/profilo-yaml.md](references/profilo-yaml.md); esempio con `rtit profilo nuovo` o in `assets/profilo-esempio.yaml` nello zip), letto dalla CLI `rtit`.

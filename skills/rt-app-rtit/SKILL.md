@@ -16,7 +16,7 @@ Dati **pubblici e in sola lettura** dell'App RTIT: eventi, unità organizzative 
 
 ## Come accedere (in ordine di preferenza)
 
-1. **Server MCP "App Round Table Italia"** (`round-table-italia`), se i suoi strumenti sono disponibili (es. `search_events`).
+1. **Server MCP "App Round Table Italia"** (in Codex e in altri client si chiama `round-table-italia`), se i suoi strumenti sono disponibili (es. `search_events`).
 2. **CLI** `rtit app-rtit …` se c'è un terminale ma non il server MCP: copre solo eventi e date (vedi la skill `rt-calendario`, file `references/app-rtit.md`).
 3. **Sito** https://app.roundtable.it se non c'è nessuno dei due: guida l'utente o, se puoi navigare, leggi la pagina.
 

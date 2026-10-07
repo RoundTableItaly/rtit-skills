@@ -4,7 +4,7 @@ about: Qualcosa non funziona (CLI, skill, template)
 labels: bug
 ---
 
-**Cosa stavi facendo** (assistente usato: Claude.ai / Claude Code / Gemini / altro):
+**Cosa stavi facendo** (assistente usato: Claude.ai / Claude Code / Codex / Antigravity CLI / Gemini / altro):
 
 **Cosa è successo** (messaggio di errore, output):
 
