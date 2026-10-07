@@ -24,7 +24,15 @@ jobs:
         env:
           RTIT_LEAK_DENYLIST: ${{ secrets.RTIT_LEAK_DENYLIST }}
         run: uv run python tools/check_leaks.py
-      - name: Pacchetti di rilascio
+      - name: Versione e changelog coerenti
+        run: uv run python tools/bump_version.py --check
+      # Con un tag: deve coincidere con la versione dei file, e il changelog dà il testo della release
+      - name: Tag uguale alla versione, note di rilascio
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/v')
+        run: |
+          uv run python tools/bump_version.py --check "${GITHUB_REF_NAME}"
+          uv run python tools/bump_version.py --note "${GITHUB_REF_NAME}" > note-rilascio.md
+      - name: Pacchetto di rilascio
         run: uv run python tools/build_release.py
       # Avvio manuale: solo artifact da scaricare, nessuna release
       - name: Carica i pacchetti come artifact
@@ -39,4 +47,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: dist/**/*.zip
-          generate_release_notes: true
+          body_path: note-rilascio.md

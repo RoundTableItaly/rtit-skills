@@ -60,7 +60,7 @@ Ogni versione pubblica un solo file nella pagina [Releases](https://github.com/R
 | Gemini CLI | estensione (`gemini-extension.json`): dall'indirizzo del repository o dalla cartella estratta |
 | ChatGPT e app Gemini | non hanno un formato di plugin: si usano le `SKILL.md` come istruzioni, vedi sotto |
 
-Il pacchetto si genera anche in locale con `uv run python tools/build_release.py` (cartella `dist/`).
+Le novità di ogni versione sono nel [CHANGELOG.md](CHANGELOG.md). Il pacchetto si genera anche in locale con `uv run python tools/build_release.py` (cartella `dist/`).
 
 ## Hai appena installato un assistente AI? Fai così
 
