@@ -4,6 +4,8 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 
 ## [Non rilasciato]
 
+## [0.2.1] - 2026-10-07
+
 ### Aggiunto
 
 - Regole di rilascio in `docs/rilasci.md`: versioni, rami, changelog, procedura.

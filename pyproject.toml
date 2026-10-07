@@ -1,6 +1,6 @@
 [project]
 name = "rtit-skills"
-version = "0.2.0"
+version = "0.2.1"
 description = "Strumenti per gli assistenti AI dei direttivi di Round Table Italia (tavola, zona, nazionale)"
 readme = "README.md"
 requires-python = ">=3.10"
