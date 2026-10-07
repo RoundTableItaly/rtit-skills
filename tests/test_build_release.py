@@ -33,8 +33,11 @@ def test_single_package(br, dist: Path):
 
 def test_package_contents(br, dist: Path, tmp_path: Path):
     with zipfile.ZipFile(dist / "rtit-skills.zip") as z:
+        names = z.namelist()
         z.extractall(tmp_path)
-    base = tmp_path / "rtit-skills"
+    # Claude carica lo zip come plugin solo con il manifest al primo livello
+    assert ".claude-plugin/plugin.json" in names
+    base = tmp_path
     for rel in br.PLUGIN_FILES:
         assert (base / rel).is_file(), rel
     claude = json.loads((base / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8"))

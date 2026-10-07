@@ -50,14 +50,14 @@ L'**anno sociale** inizia il giorno dopo l'AGM e finisce il giorno dell'AGM succ
 
 ## Scaricare il pacchetto
 
-Ogni versione pubblica un solo file nella pagina [Releases](https://github.com/RoundTableItaly/rtit-skills/releases): **`rtit-skills.zip`**. Estratto, dà la cartella `rtit-skills/` con tutte le skill (`skills/<skill>/`) e i file che la rendono installabile come plugin:
+Ogni versione pubblica un solo file nella pagina [Releases](https://github.com/RoundTableItaly/rtit-skills/releases): **`rtit-skills.zip`**. Contiene tutte le skill (`skills/<skill>/`) e i file che lo rendono un **plugin**, cioè una raccolta di skill che si installa in un colpo solo:
 
 | Usi… | Come si installa |
 | --- | --- |
+| Claude (app e claude.ai) | plugin: carica `rtit-skills.zip` così com'è, vedi sotto |
 | Claude Code | plugin (`.claude-plugin/`): dal marketplace su GitHub o dalla cartella estratta, vedi sotto |
 | Codex | plugin (`.codex-plugin/`): dal marketplace su GitHub o dalla cartella estratta, vedi sotto |
 | Gemini CLI | estensione (`gemini-extension.json`): dall'indirizzo del repository o dalla cartella estratta |
-| Claude.ai o Claude Desktop | le skill si caricano una alla volta: comprimi la cartella della skill che ti serve |
 | ChatGPT e app Gemini | non hanno un formato di plugin: si usano le `SKILL.md` come istruzioni, vedi sotto |
 
 Il pacchetto si genera anche in locale con `uv run python tools/build_release.py` (cartella `dist/`).
@@ -66,13 +66,13 @@ Il pacchetto si genera anche in locale con `uv run python tools/build_release.py
 
 ### Claude (app o claude.ai)
 
-1. Scarica `rtit-skills.zip` dalla pagina [Releases](https://github.com/RoundTableItaly/rtit-skills/releases) ed estrailo. Per ogni skill che ti serve, comprimi la sua cartella in uno zip (es. `skills/rt-bollettino` → `rt-bollettino.zip`). Per iniziare bastano `rt-primi-passi`, `rt-cosa-fare`, `rt-presidente` e `rt-bollettino`.
-2. In Claude apri le **Impostazioni**, cerca la sezione **Skill** e carica uno zip alla volta. Le skill richiedono che l'esecuzione di codice sia attiva: Claude te lo segnala se non lo è.
+1. Scarica `rtit-skills.zip` dalla pagina [Releases](https://github.com/RoundTableItaly/rtit-skills/releases). Non serve estrarlo.
+2. In Claude apri la sezione dei **Plugin** e carica lo zip: installa tutte le skill insieme, con il connettore dell'App Round Table Italia. Le skill richiedono che l'esecuzione di codice sia attiva: Claude te lo segnala se non lo è.
 3. Crea un **Progetto** per la tua tavola (es. "Tavola 99").
 4. Scrivi: *"Sono il nuovo segretario della mia tavola, aiutami con i primi passi"*.
 5. Incolla nelle **Istruzioni del progetto** il profilo che Claude ti prepara. Da lì in poi ogni conversazione del Progetto conosce la tua tavola.
 
-**Consigliato:** aggiungi anche il connettore dell'App Round Table Italia (Impostazioni → Connettori → connettore personalizzato → `https://app.roundtable.it/mcp/`, senza autenticazione; guida: https://app.roundtable.it/ai-agents). Così l'assistente vede eventi, collisioni di date e statistiche aggiornati.
+**Connettore dell'App Round Table Italia:** il plugin lo include già; se non compare tra i connettori, aggiungilo a mano (Impostazioni → Connettori → connettore personalizzato → `https://app.roundtable.it/mcp/`, senza autenticazione; guida: https://app.roundtable.it/ai-agents). Così l'assistente vede eventi, collisioni di date e statistiche aggiornati.
 
 Se colleghi il calendario e il cloud della tavola (Google Drive, OneDrive/SharePoint, Dropbox) dai connettori, le skill leggono e salvano lì eventi, pack e bollettini. Prima di scrivere qualcosa ti chiedono sempre conferma.
 
@@ -83,7 +83,7 @@ Se colleghi il calendario e il cloud della tavola (Google Drive, OneDrive/ShareP
 /plugin install rtit@rtit-skills
 ```
 
-Senza accesso a GitHub puoi estrarre `rtit-skills.zip` e aggiungere la cartella come marketplace locale (`/plugin marketplace add ./rtit-skills`), poi installare `rtit@rtit-skills`.
+Senza accesso a GitHub estrai `rtit-skills.zip` in una cartella (es. `rtit-skills/`) e aggiungila come marketplace locale (`/plugin marketplace add ./rtit-skills`), poi installa `rtit@rtit-skills`.
 
 Gli strumenti da riga di comando (`rtit`) si avviano con [uv](https://docs.astral.sh/uv/): `uvx --from git+https://github.com/RoundTableItaly/rtit-skills rtit --help`. Guida completa: [skills/rt-primi-passi/references/installazione.md](skills/rt-primi-passi/references/installazione.md).
 
@@ -95,7 +95,7 @@ Il repository è anche un plugin Codex (`.codex-plugin/plugin.json`), con le ski
 codex plugin marketplace add RoundTableItaly/rtit-skills
 ```
 
-Poi installa il plugin `rtit` dall'elenco dei plugin di Codex. Senza accesso a GitHub: `codex plugin marketplace add ./rtit-skills` sulla cartella estratta dallo zip.
+Poi installa il plugin `rtit` dall'elenco dei plugin di Codex. Senza accesso a GitHub: estrai lo zip in una cartella e usa `codex plugin marketplace add ./rtit-skills`.
 
 ### Gemini CLI
 
@@ -105,7 +105,7 @@ Il repository è anche un'estensione Gemini CLI, con le skill e il server MCP de
 gemini extensions install https://github.com/RoundTableItaly/rtit-skills
 ```
 
-Senza accesso a GitHub: `gemini extensions install ./rtit-skills` sulla cartella estratta dallo zip.
+Senza accesso a GitHub: estrai lo zip in una cartella e usa `gemini extensions install ./rtit-skills`.
 
 ### Altri agenti (Cursor e simili)
 

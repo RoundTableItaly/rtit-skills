@@ -1,10 +1,11 @@
 """Crea in dist/ il pacchetto di rilascio: un solo zip con tutte le skill.
 
-    dist/rtit-skills.zip    cartella `rtit-skills/` con le skill e i manifest dei plugin
+    dist/rtit-skills.zip    le skill e i manifest dei plugin, alla radice dello zip
 
-La cartella estratta è allo stesso tempo:
+I manifest stanno alla radice perché Claude (app e claude.ai) carica lo zip come plugin solo se
+`.claude-plugin/plugin.json` è al primo livello. Lo zip, o la cartella in cui lo estrai, è insieme:
 
-- un plugin Claude Code (`.claude-plugin/`), installabile come marketplace locale;
+- un plugin Claude (`.claude-plugin/`): si carica nell'app o si aggiunge a Claude Code come marketplace locale;
 - un plugin Codex (`.codex-plugin/`, marketplace in `.agents/plugins/`);
 - un'estensione Gemini CLI (`gemini-extension.json` + `GEMINI.md`);
 - la raccolta delle skill (`skills/<skill>/SKILL.md`) per chi le carica a mano.
@@ -30,7 +31,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATES = ROOT / "src" / "rtit" / "templates"
-PACKAGE = "rtit-skills"
+PACKAGE = "rtit-skills"  # nome dello zip; il contenuto sta alla radice, senza cartella intermedia
 
 # File del pacchetto Python da includere nelle skill (per chi le usa senza la CLI)
 EXTRA_ASSETS: dict[str, list[Path]] = {
@@ -117,7 +118,7 @@ def skill_entries(skill: Skill, prefix: str) -> dict[str, bytes]:
 
 
 def package_entries(skills: list[Skill], root: Path = ROOT) -> dict[str, bytes]:
-    base = f"{PACKAGE}/"
+    base = ""
     entries: dict[str, bytes] = {}
     for rel in PLUGIN_FILES:
         src = root / rel
