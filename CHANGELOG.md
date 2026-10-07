@@ -4,12 +4,21 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 
 ## [Non rilasciato]
 
+### Aggiunto
+
+- Plugin per Antigravity CLI (`agy`), il nuovo nome di Gemini CLI: si installa con `agy plugin install`.
+
 ### Cambiato
 
-- Il connettore ai dati dell'App si chiama ora "App Round Table Italia" (prima `round-table-italia`). In Claude Code compare come `plugin:rtit:App Round Table Italia`. In Codex e Gemini CLI resta `round-table-italia`, perché lì il nome non può avere spazi.
+- Il connettore ai dati dell'App si chiama ora "App Round Table Italia" (prima `round-table-italia`). In Claude Code compare come `plugin:rtit:App Round Table Italia`. In Codex resta `round-table-italia`, perché lì il nome non può avere spazi.
+
+### Rimosso
+
+- Estensione per il vecchio Gemini CLI (`gemini-extension.json`): `agy` non la legge.
 
 ### Da fare dopo l'aggiornamento
 
+- Se usavi l'estensione di Gemini CLI, installa il plugin con `agy plugin install`.
 - Se avevi dato permessi permanenti agli strumenti del vecchio connettore `round-table-italia`, Claude te li chiederà di nuovo: il nome degli strumenti è cambiato.
 
 ## [0.2.2] - 2026-10-07

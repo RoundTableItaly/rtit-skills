@@ -2,7 +2,7 @@
 
 La versione sta in sei file e deve essere identica (vedi docs/rilasci.md):
 pyproject.toml, src/rtit/__init__.py, .claude-plugin/plugin.json,
-.claude-plugin/marketplace.json, .codex-plugin/plugin.json, gemini-extension.json.
+.claude-plugin/marketplace.json, .codex-plugin/plugin.json, plugin.json.
 
 Uso:
     python tools/bump_version.py X.Y.Z          aggiorna i file e chiude "Non rilasciato" nel changelog
@@ -30,7 +30,7 @@ VERSION_FILES: dict[str, str] = {
     ".claude-plugin/plugin.json": r'("version": ")([^"]+)(")',
     ".claude-plugin/marketplace.json": r'("version": ")([^"]+)(")',
     ".codex-plugin/plugin.json": r'("version": ")([^"]+)(")',
-    "gemini-extension.json": r'("version": ")([^"]+)(")',
+    "plugin.json": r'("version": ")([^"]+)(")',  # Antigravity CLI
 }
 SEMVER_RE = re.compile(r"^(\d+)\.(\d+)\.(\d+)$")
 

@@ -43,9 +43,13 @@ def test_package_contents(br, dist: Path, tmp_path: Path):
         assert (base / rel).is_file(), rel
     claude = json.loads((base / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8"))
     codex = json.loads((base / ".codex-plugin" / "plugin.json").read_text(encoding="utf-8"))
-    gemini = json.loads((base / "gemini-extension.json").read_text(encoding="utf-8"))
+    agy = json.loads((base / "plugin.json").read_text(encoding="utf-8"))
     assert claude["name"] == codex["name"] == "rtit"
-    assert claude["version"] == codex["version"] == gemini["version"]
+    assert claude["version"] == codex["version"] == agy["version"]
+    assert claude["name"] == agy["name"]
+    # Antigravity CLI legge i server MCP da mcp_config.json, con il campo serverUrl
+    agy_mcp = json.loads((base / "mcp_config.json").read_text(encoding="utf-8"))
+    assert agy_mcp["mcpServers"]["App Round Table Italia"]["serverUrl"] == br.MCP_URL
     assert codex["skills"] == "./skills/"
     mcp = json.loads((base / ".mcp.json").read_text(encoding="utf-8"))
     assert mcp["mcpServers"]["App Round Table Italia"]["url"] == br.MCP_URL

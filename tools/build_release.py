@@ -7,7 +7,7 @@ I manifest stanno alla radice perché Claude (app e claude.ai) carica lo zip com
 
 - un plugin Claude (`.claude-plugin/`): si carica nell'app o si aggiunge a Claude Code come marketplace locale;
 - un plugin Codex (`.codex-plugin/`, marketplace in `.agents/plugins/`);
-- un'estensione Gemini CLI (`gemini-extension.json` + `GEMINI.md`);
+- un plugin Antigravity CLI, `agy` (`plugin.json` e `mcp_config.json` alla radice);
 - la raccolta delle skill (`skills/<skill>/SKILL.md`) per chi le carica a mano.
 
 ChatGPT (GPT personalizzati) e l'app Gemini (Gem) non hanno un formato di pacchetto: non c'è nulla
@@ -53,7 +53,8 @@ PLUGIN_FILES = (
     ".agents/plugins/marketplace.json",
     "assets/logo-rtit.png",
     "assets/logo-rtit.svg",
-    "gemini-extension.json",
+    "plugin.json",
+    "mcp_config.json",
     "GEMINI.md",
     "AGENTS.md",
     ".mcp.json",
@@ -61,7 +62,7 @@ PLUGIN_FILES = (
     "LICENSE",
 )
 # Manifest dei plugin: devono avere un nome (la versione la controlla bump_version)
-MANIFESTS = (".claude-plugin/plugin.json", ".codex-plugin/plugin.json", "gemini-extension.json")
+MANIFESTS = (".claude-plugin/plugin.json", ".codex-plugin/plugin.json", "plugin.json")
 
 MCP_URL = "https://app.roundtable.it/mcp/"
 

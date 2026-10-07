@@ -16,7 +16,7 @@ Guida ufficiale: https://app.roundtable.it/ai-agents
 | **Claude** (web, desktop, mobile) | Impostazioni → sezione connettori → aggiungi un connettore personalizzato → incolla l'indirizzo del server e conferma |
 | **ChatGPT** | Impostazioni → sezione connettori (dove disponibile nel tuo piano) → nuovo connettore con server MCP → incolla l'indirizzo; autenticazione: nessuna |
 | **Claude Code** | `claude mcp add --transport http "App Round Table Italia" https://app.roundtable.it/mcp/` (il plugin `rtit` lo configura già, in `.mcp.json`, con questo stesso nome) |
-| **Gemini CLI** | Già configurato nell'estensione `rtit-skills` (`gemini-extension.json`), con il nome `round-table-italia` |
+| **Antigravity CLI** (`agy`, il vecchio Gemini CLI) | Già configurato nel plugin `rtit` (`mcp_config.json`). A mano: `agy mcp add "App Round Table Italia" https://app.roundtable.it/mcp/` |
 | **Altri client** (Cursor, VS Code, …) | Nel file di configurazione MCP del client: `{"mcpServers": {"round-table-italia": {"url": "https://app.roundtable.it/mcp/"}}}` (il nome è libero; se il client non accetta spazi usa questo) |
 
 I nomi dei menu possono cambiare da una versione all'altra delle app.

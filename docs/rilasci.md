@@ -14,7 +14,7 @@ Numerazione `MAJOR.MINOR.PATCH`:
 
 Finché siamo in `0.x`, i cambi "da MAJOR" alzano il MINOR e vanno scritti nel changelog sotto "Da fare dopo l'aggiornamento".
 
-La versione sta in sei file e deve essere identica: `pyproject.toml`, `src/rtit/__init__.py` (è quella che mostra `rtit --version`), `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.codex-plugin/plugin.json`, `gemini-extension.json`. **Non modificarla a mano**: usa `tools/bump_version.py`. Il tag è `vX.Y.Z` e coincide con la versione nei file.
+La versione sta in sei file e deve essere identica: `pyproject.toml`, `src/rtit/__init__.py` (è quella che mostra `rtit --version`), `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.codex-plugin/plugin.json`, `plugin.json` (quello alla radice, per Antigravity CLI). **Non modificarla a mano**: usa `tools/bump_version.py`. Il tag è `vX.Y.Z` e coincide con la versione nei file.
 
 ## 2. Rami (git-flow)
 
@@ -26,7 +26,7 @@ La versione sta in sei file e deve essere identica: `pyproject.toml`, `src/rtit/
 | `release/X.Y.Z` | preparazione del rilascio | `develop` | `main` e `develop` |
 | `hotfix/X.Y.Z` | correzione urgente di una versione pubblicata | `main` | `main` e `develop` |
 
-- Il ramo predefinito su GitHub è `main`, perché è quello che installano `/plugin marketplace add`, `codex plugin marketplace add` e `gemini extensions install`: deve contenere solo versioni rilasciate.
+- Il ramo predefinito su GitHub è `main`, perché è quello che installano `/plugin marketplace add`, `codex plugin marketplace add` e `agy plugin install`: deve contenere solo versioni rilasciate.
 - Per questo **ogni lavoro nuovo parte esplicitamente da `develop`**, anche nelle sessioni AI, che di solito partono dal ramo predefinito:
 
   ```bash
