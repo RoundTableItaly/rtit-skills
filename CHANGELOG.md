@@ -4,6 +4,12 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 
 ## [Non rilasciato]
 
+## [0.2.2] - 2026-10-07
+
+### Corretto
+
+- `rtit --version` mostrava ancora 0.2.0 dopo l'aggiornamento alla 0.2.1: ora la versione della CLI segue quella del rilascio.
+
 ## [0.2.1] - 2026-10-07
 
 ### Aggiunto

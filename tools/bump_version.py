@@ -1,8 +1,8 @@
 """Versione del progetto: aggiornarla, controllarla, estrarre le note di rilascio.
 
-La versione sta in cinque file e deve essere identica (vedi docs/rilasci.md):
-pyproject.toml, .claude-plugin/plugin.json, .claude-plugin/marketplace.json,
-.codex-plugin/plugin.json, gemini-extension.json.
+La versione sta in sei file e deve essere identica (vedi docs/rilasci.md):
+pyproject.toml, src/rtit/__init__.py, .claude-plugin/plugin.json,
+.claude-plugin/marketplace.json, .codex-plugin/plugin.json, gemini-extension.json.
 
 Uso:
     python tools/bump_version.py X.Y.Z          aggiorna i file e chiude "Non rilasciato" nel changelog
@@ -26,6 +26,7 @@ UNRELEASED = "## [Non rilasciato]"
 # file → espressione che cattura il numero di versione (una sola occorrenza per file)
 VERSION_FILES: dict[str, str] = {
     "pyproject.toml": r'(?m)^(version = ")([^"]+)(")',
+    "src/rtit/__init__.py": r'(?m)^(__version__ = ")([^"]+)(")',  # `rtit --version` e User-Agent
     ".claude-plugin/plugin.json": r'("version": ")([^"]+)(")',
     ".claude-plugin/marketplace.json": r'("version": ")([^"]+)(")',
     ".codex-plugin/plugin.json": r'("version": ")([^"]+)(")',
