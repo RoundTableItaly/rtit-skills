@@ -4,6 +4,17 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 
 ## [Non rilasciato]
 
+## [0.2.2] - 2026-10-07
+
+### Cambiato
+
+- Il plugin si presenta con il nome "Round Table Italia AI Skills" (prima compariva la sigla `rtit`).
+- Il plugin porta con sé il logo di Round Table Italia, per la scheda nella directory dei plugin.
+
+### Corretto
+
+- `rtit --version` mostrava ancora 0.2.0 dopo l'aggiornamento alla 0.2.1: ora la versione della CLI segue quella del rilascio.
+
 ## [0.2.1] - 2026-10-07
 
 ### Aggiunto

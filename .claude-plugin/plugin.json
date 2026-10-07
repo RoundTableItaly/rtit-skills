@@ -1,7 +1,9 @@
 {
   "name": "rtit",
-  "version": "0.2.1",
+  "displayName": "Round Table Italia AI Skills",
+  "version": "0.2.2",
   "description": "Skill per i direttivi di Round Table Italia (tavola, zona, nazionale): profilo, cosa c'è da fare, eventi, bollettini, archivio condiviso, calendario e App RTIT (server MCP), adempimenti del Presidente, direttivo e verbali, comunicazione e social, uso del logo, crescita e reclutamento.",
+  "icon": "./assets/logo-rtit.png",
   "author": {
     "name": "RoundTableItaly"
   },

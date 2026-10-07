@@ -14,7 +14,7 @@ Numerazione `MAJOR.MINOR.PATCH`:
 
 Finché siamo in `0.x`, i cambi "da MAJOR" alzano il MINOR e vanno scritti nel changelog sotto "Da fare dopo l'aggiornamento".
 
-La versione sta in cinque file e deve essere identica: `pyproject.toml`, `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.codex-plugin/plugin.json`, `gemini-extension.json`. **Non modificarla a mano**: usa `tools/bump_version.py`. Il tag è `vX.Y.Z` e coincide con la versione nei file.
+La versione sta in sei file e deve essere identica: `pyproject.toml`, `src/rtit/__init__.py` (è quella che mostra `rtit --version`), `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.codex-plugin/plugin.json`, `gemini-extension.json`. **Non modificarla a mano**: usa `tools/bump_version.py`. Il tag è `vX.Y.Z` e coincide con la versione nei file.
 
 ## 2. Rami (git-flow)
 
@@ -60,7 +60,7 @@ La versione sta in cinque file e deve essere identica: `pyproject.toml`, `.claud
    git switch -c release/X.Y.Z origin/develop
    ```
 
-2. Alza la versione. Il comando aggiorna i cinque file e sposta le righe di "Non rilasciato" nella sezione della nuova versione, con la data di oggi:
+2. Alza la versione. Il comando aggiorna i sei file e sposta le righe di "Non rilasciato" nella sezione della nuova versione, con la data di oggi:
 
    ```bash
    uv run python tools/bump_version.py X.Y.Z
@@ -93,6 +93,6 @@ La versione sta in cinque file e deve essere identica: `pyproject.toml`, `.claud
 
 | Dove | Cosa controlla |
 | --- | --- |
-| CI (pull request, `main`, `develop`) | lint, formato, test, fughe di dati, build del pacchetto, versione uguale nei cinque file e presente nel changelog (`tools/bump_version.py --check`) |
+| CI (pull request, `main`, `develop`) | lint, formato, test, fughe di dati, build del pacchetto, versione uguale nei sei file e presente nel changelog (`tools/bump_version.py --check`) |
 | Workflow `Release` (tag `v*`) | gli stessi controlli, più: il tag coincide con la versione |
 | GitHub | protezioni dei rami `main` e `develop` e dei tag `v*`, dove il piano dell'organizzazione le consente |

@@ -146,4 +146,4 @@ uv run python tools/build_release.py
 
 ## Titolarità e licenza
 
-Codice e documentazione: vedi [LICENSE](LICENSE). Il nome "Round Table", i loghi e i marchi di Round Table Italia e Round Table International appartengono ai rispettivi titolari e **non** sono coperti dalla licenza. Il template del bollettino usa loghi segnaposto: ogni tavola inserisce i propri, nel rispetto del manuale loghi RTIT.
+Codice e documentazione: vedi [LICENSE](LICENSE). Il nome "Round Table", i loghi e i marchi di Round Table Italia e Round Table International appartengono ai rispettivi titolari e **non** sono coperti dalla licenza. Vale anche per il logo in `assets/`, incluso solo come icona del plugin. Il template del bollettino usa loghi segnaposto: ogni tavola inserisce i propri, nel rispetto del manuale loghi RTIT.

@@ -40,6 +40,12 @@ def test_repository_is_coherent(bv):
     assert bv.UNRELEASED in (ROOT / bv.CHANGELOG).read_text(encoding="utf-8")
 
 
+def test_cli_version_follows_the_release(bv):
+    import rtit
+
+    assert rtit.__version__ == bv.current_version(ROOT)
+
+
 def test_bump_updates_every_file_and_changelog(bv, repo: Path):
     major, minor, patch = bv.parse(bv.current_version(repo))
     new = f"{major}.{minor}.{patch + 1}"
