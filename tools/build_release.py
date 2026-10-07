@@ -50,6 +50,8 @@ PLUGIN_FILES = (
     ".claude-plugin/marketplace.json",
     ".codex-plugin/plugin.json",
     ".agents/plugins/marketplace.json",
+    "assets/logo-rtit.png",
+    "assets/logo-rtit.svg",
     "gemini-extension.json",
     "GEMINI.md",
     "AGENTS.md",
