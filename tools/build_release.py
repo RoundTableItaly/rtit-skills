@@ -49,6 +49,7 @@ PLUGIN_FILES = (
     ".claude-plugin/plugin.json",
     ".claude-plugin/marketplace.json",
     ".codex-plugin/plugin.json",
+    ".codex-plugin/mcp.json",
     ".agents/plugins/marketplace.json",
     "assets/logo-rtit.png",
     "assets/logo-rtit.svg",

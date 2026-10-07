@@ -3,7 +3,7 @@
   "version": "0.2.2",
   "description": "Skill per i direttivi di Round Table Italia (tavola, zona, nazionale): profilo, cosa c'è da fare, eventi, bollettini, archivio condiviso, calendario e App RTIT (server MCP), adempimenti del Presidente, direttivo e verbali, comunicazione e social, uso del logo, crescita e reclutamento.",
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
+  "mcpServers": "./.codex-plugin/mcp.json",
   "interface": {
     "displayName": "Round Table Italia AI Skills",
     "category": "Productivity"

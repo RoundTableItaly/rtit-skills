@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import re
 import sys
 import zipfile
 from pathlib import Path
@@ -48,6 +49,11 @@ def test_package_contents(br, dist: Path, tmp_path: Path):
     assert codex["skills"] == "./skills/"
     mcp = json.loads((base / ".mcp.json").read_text(encoding="utf-8"))
     assert mcp["mcpServers"]["App Round Table Italia"]["url"] == br.MCP_URL
+    # Codex accetta solo lettere, cifre, trattini e underscore nel nome del server: ha un file suo
+    assert codex["mcpServers"] == "./.codex-plugin/mcp.json"
+    codex_mcp = json.loads((base / ".codex-plugin" / "mcp.json").read_text(encoding="utf-8"))
+    assert all(re.fullmatch(r"[A-Za-z0-9_-]+", name) for name in codex_mcp["mcpServers"])
+    assert codex_mcp["mcpServers"]["round-table-italia"]["url"] == br.MCP_URL
     for skill in br.load_skills():
         assert (base / "skills" / skill.name / "SKILL.md").is_file()
         for asset in br.EXTRA_ASSETS.get(skill.name, []):

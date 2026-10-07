@@ -6,7 +6,7 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 
 ### Cambiato
 
-- Il connettore ai dati dell'App si chiama ora "App Round Table Italia" (prima `round-table-italia`). In Claude Code compare come `plugin:rtit:App Round Table Italia`.
+- Il connettore ai dati dell'App si chiama ora "App Round Table Italia" (prima `round-table-italia`). In Claude Code compare come `plugin:rtit:App Round Table Italia`. In Codex e Gemini CLI resta `round-table-italia`, perché lì il nome non può avere spazi.
 
 ### Da fare dopo l'aggiornamento
 

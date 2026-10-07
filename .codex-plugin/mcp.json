@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "round-table-italia": {
+      "type": "http",
+      "url": "https://app.roundtable.it/mcp/"
+    }
+  }
+}
