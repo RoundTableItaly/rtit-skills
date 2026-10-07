@@ -9,6 +9,7 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 ### Cambiato
 
 - Il plugin si presenta con il nome "Round Table Italia AI Skills" (prima compariva la sigla `rtit`).
+- Il plugin porta con sé il logo di Round Table Italia, per la scheda nella directory dei plugin.
 
 ### Corretto
 
