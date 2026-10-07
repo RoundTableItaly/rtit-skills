@@ -1,0 +1,20 @@
+{
+  "name": "rtit-skills",
+  "interface": {
+    "displayName": "Round Table Italia"
+  },
+  "plugins": [
+    {
+      "name": "rtit",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

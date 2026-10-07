@@ -48,24 +48,25 @@ Le skill lavorano su una cartella del cloud della tavola (Google Drive, OneDrive
 
 L'**anno sociale** inizia il giorno dopo l'AGM e finisce il giorno dell'AGM successivo (Statuto, art. 76); l'AGM si tiene tra il 15 maggio e il 30 giugno, di solito il primo sabato di giugno. Si scrive `AAAA-AAAA`. Con la CLI: `rtit archivio struttura --applica` crea le cartelle dell'anno, `rtit evento nuovo --data … --titolo … --applica` crea la cartella dell'evento (e si ferma se ne esiste già una simile).
 
-## Scaricare i pacchetti
+## Scaricare il pacchetto
 
-Ogni versione pubblica i pacchetti pronti nella pagina [Releases](https://github.com/RoundTableItaly/rtit-skills/releases):
+Ogni versione pubblica un solo file nella pagina [Releases](https://github.com/RoundTableItaly/rtit-skills/releases): **`rtit-skills.zip`**. Estratto, dà la cartella `rtit-skills/` con tutte le skill (`skills/<skill>/`) e i file che la rendono installabile come plugin:
 
-| Usi… | Scarica | Cosa contiene |
-| --- | --- | --- |
-| Claude.ai o Claude Desktop | `rt-<skill>.zip` (una skill) oppure `rtit-skills-tutte.zip` | le skill da caricare in Impostazioni → Skill |
-| Claude Code | `rtit-claude-plugin.zip` | il plugin completo con il server MCP dell'App RTIT (in alternativa installalo dal marketplace, vedi sotto) |
-| ChatGPT | `rtit-chatgpt.zip` | istruzioni e file di conoscenza per un GPT personalizzato, con la guida `LEGGIMI.md` |
-| Gemini (app) | `rtit-gemini.zip` | istruzioni e file di conoscenza per un Gem, con la guida `LEGGIMI.md` |
+| Usi… | Come si installa |
+| --- | --- |
+| Claude Code | plugin (`.claude-plugin/`): dal marketplace su GitHub o dalla cartella estratta, vedi sotto |
+| Codex | plugin (`.codex-plugin/`): dal marketplace su GitHub o dalla cartella estratta, vedi sotto |
+| Gemini CLI | estensione (`gemini-extension.json`): dall'indirizzo del repository o dalla cartella estratta |
+| Claude.ai o Claude Desktop | le skill si caricano una alla volta: comprimi la cartella della skill che ti serve |
+| ChatGPT e app Gemini | non hanno un formato di plugin: si usano le `SKILL.md` come istruzioni, vedi sotto |
 
-I pacchetti si generano anche in locale con `uv run python tools/build_release.py` (cartella `dist/`).
+Il pacchetto si genera anche in locale con `uv run python tools/build_release.py` (cartella `dist/`).
 
 ## Hai appena installato un assistente AI? Fai così
 
 ### Claude (app o claude.ai)
 
-1. Scarica dalla pagina [Releases](https://github.com/RoundTableItaly/rtit-skills/releases) gli zip delle skill che ti servono. Per iniziare bastano `rt-primi-passi`, `rt-cosa-fare`, `rt-presidente` e `rt-bollettino`; `rtit-skills-tutte.zip` le contiene tutte.
+1. Scarica `rtit-skills.zip` dalla pagina [Releases](https://github.com/RoundTableItaly/rtit-skills/releases) ed estrailo. Per ogni skill che ti serve, comprimi la sua cartella in uno zip (es. `skills/rt-bollettino` → `rt-bollettino.zip`). Per iniziare bastano `rt-primi-passi`, `rt-cosa-fare`, `rt-presidente` e `rt-bollettino`.
 2. In Claude apri le **Impostazioni**, cerca la sezione **Skill** e carica uno zip alla volta. Le skill richiedono che l'esecuzione di codice sia attiva: Claude te lo segnala se non lo è.
 3. Crea un **Progetto** per la tua tavola (es. "Tavola 99").
 4. Scrivi: *"Sono il nuovo segretario della mia tavola, aiutami con i primi passi"*.
@@ -82,25 +83,41 @@ Se colleghi il calendario e il cloud della tavola (Google Drive, OneDrive/ShareP
 /plugin install rtit@rtit-skills
 ```
 
-Senza accesso a GitHub puoi estrarre `rtit-claude-plugin.zip` e aggiungere la cartella come marketplace locale (`/plugin marketplace add ./rtit-claude-plugin`), poi installare `rtit@rtit-skills`.
+Senza accesso a GitHub puoi estrarre `rtit-skills.zip` e aggiungere la cartella come marketplace locale (`/plugin marketplace add ./rtit-skills`), poi installare `rtit@rtit-skills`.
 
 Gli strumenti da riga di comando (`rtit`) si avviano con [uv](https://docs.astral.sh/uv/): `uvx --from git+https://github.com/RoundTableItaly/rtit-skills rtit --help`. Guida completa: [skills/rt-primi-passi/references/installazione.md](skills/rt-primi-passi/references/installazione.md).
 
-### Altri agenti (Codex, Cursor, Gemini CLI, …)
+### Codex
+
+Il repository è anche un plugin Codex (`.codex-plugin/plugin.json`), con le skill e il server MCP dell'App RTIT:
+
+```bash
+codex plugin marketplace add RoundTableItaly/rtit-skills
+```
+
+Poi installa il plugin `rtit` dall'elenco dei plugin di Codex. Senza accesso a GitHub: `codex plugin marketplace add ./rtit-skills` sulla cartella estratta dallo zip.
+
+### Gemini CLI
+
+Il repository è anche un'estensione Gemini CLI, con le skill e il server MCP dell'App RTIT:
+
+```bash
+gemini extensions install https://github.com/RoundTableItaly/rtit-skills
+```
+
+Senza accesso a GitHub: `gemini extensions install ./rtit-skills` sulla cartella estratta dallo zip.
+
+### Altri agenti (Cursor e simili)
 
 ```bash
 npx skills add RoundTableItaly/rtit-skills
 ```
 
-Per Gemini CLI il repository è anche un'estensione, con il server MCP dell'App RTIT: `gemini extensions install https://github.com/RoundTableItaly/rtit-skills`. Gli agenti che leggono `AGENTS.md` trovano lì le istruzioni generali.
+Gli agenti che leggono `AGENTS.md` trovano lì le istruzioni generali.
 
-### ChatGPT
+### ChatGPT e app Gemini
 
-ChatGPT non carica le skill come file: con `rtit-chatgpt.zip` crei un **GPT personalizzato**. Incolli `ISTRUZIONI.txt` nelle istruzioni del GPT, carichi i file della cartella `conoscenza/` e, dove il piano lo consente, aggiungi l'App Round Table Italia come connettore MCP (`https://app.roundtable.it/mcp/`, senza autenticazione; vedi https://app.roundtable.it/ai-agents). I passaggi sono in `LEGGIMI.md` dentro lo zip. La CLI `rtit` in ChatGPT non funziona: il GPT prepara testi e tabelle da salvare a mano.
-
-### Gemini (app)
-
-Con `rtit-gemini.zip` crei un **Gem**: incolli `ISTRUZIONI.txt` e carichi i file di `conoscenza/` (accorpati, perché i Gem accettano pochi file). Nell'app Gemini non c'è il connettore MCP: i dati dell'App RTIT si controllano su https://app.roundtable.it. I passaggi sono in `LEGGIMI.md` dentro lo zip.
+I GPT personalizzati di ChatGPT e i Gem di Gemini non hanno un formato di plugin: non c'è un pacchetto da installare. Crea un GPT o un Gem, incolla nelle istruzioni il contenuto della `SKILL.md` che ti serve (dalla cartella `skills/` dello zip) insieme al profilo della tavola, e carica come file di conoscenza i documenti della sua cartella `references/`. In ChatGPT, dove il piano lo consente, puoi aggiungere l'App Round Table Italia come connettore MCP (`https://app.roundtable.it/mcp/`, senza autenticazione; vedi https://app.roundtable.it/ai-agents). La CLI `rtit` lì non funziona: l'assistente prepara testi e tabelle da salvare a mano.
 
 ## Privacy, prima di tutto
 

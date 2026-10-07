@@ -2,16 +2,17 @@
 
 Le skill funzionano anche **solo in chat**. Gli strumenti da riga di comando servono per automatizzare: generare il bollettino in Word/PDF, leggere il calendario, controllare le sovrapposizioni sull'App RTIT, creare cartelle evento.
 
-## 0. Pacchetti pronti da scaricare
+## 0. Pacchetto pronto da scaricare
 
-Nella pagina **Releases** del repository rtit-skills su GitHub (https://github.com/RoundTableItaly/rtit-skills/releases) ci sono pacchetti da scaricare e caricare, senza installare nulla:
+Nella pagina **Releases** del repository rtit-skills su GitHub (https://github.com/RoundTableItaly/rtit-skills/releases) c'è un solo file, `rtit-skills.zip`. Estratto, dà la cartella `rtit-skills/` con tutte le skill in `skills/`:
 
-| Pacchetto | Per chi | Cosa fare |
-| --- | --- | --- |
-| `dist/skills/<skill>.zip` (uno per skill, es. `rt-bollettino.zip`) | Claude.ai e Claude Desktop | Nelle impostazioni, sezione delle skill: carica lo zip della skill che ti serve |
-| `rtit-claude-plugin.zip` | Claude Code | Tutte le skill in un unico plugin da installare in Claude Code |
-| `rtit-chatgpt.zip` | ChatGPT (GPT personalizzato) | Contiene le istruzioni da incollare nel GPT e i file di conoscenza da caricare |
-| `rtit-gemini.zip` | Gemini (Gem) | Istruzioni e file da caricare in un Gem |
+| Per chi | Cosa fare |
+| --- | --- |
+| Claude.ai e Claude Desktop | Comprimi la cartella della skill che ti serve (es. `skills/rt-bollettino`) e caricala nelle impostazioni, sezione delle skill |
+| Claude Code | La cartella è un plugin: `/plugin marketplace add ./rtit-skills`, poi `/plugin install rtit@rtit-skills` |
+| Codex | La cartella è un plugin: `codex plugin marketplace add ./rtit-skills` |
+| Gemini CLI | La cartella è un'estensione: `gemini extensions install ./rtit-skills` |
+| ChatGPT (GPT) e Gemini (Gem) | Nessun pacchetto: incolla nelle istruzioni la `SKILL.md` che ti serve e carica i file di `references/` |
 
 Su Claude.ai, ChatGPT e Gemini si lavora "solo chat": il profilo è un blocco di testo (vedi [profilo-testo.md](profilo-testo.md)). Il resto di questa pagina serve solo se c'è un terminale.
 
