@@ -1,6 +1,6 @@
 # App RTIT — API REST del Planner e CLI
 
-Fonte: OpenAPI di produzione dell'App Round Table Italia. Questo file copre l'**API REST** usata dalla CLI `rtit app-rtit`. Il **server MCP** (strumenti `check_date_conflicts`, `scan_conflicts`, `search_events`…) è descritto nella skill `rt-app-rtit` (file `references/strumenti-mcp.md`): i dati sono gli stessi, cambia solo il modo di chiederli.
+Fonte: OpenAPI di produzione dell'App Round Table Italia. Questo file copre l'**API REST** usata dalla CLI `rtit app-rtit`. Il **server MCP** (strumenti `check_date_conflicts`, `scan_conflicts`, `search_events`…) è descritto in [strumenti-mcp.md](strumenti-mcp.md): i dati sono gli stessi, cambia solo il modo di chiederli.
 
 | Risorsa | URL |
 | --- | --- |

@@ -60,7 +60,7 @@ Emoji: la fonte non ne parla; aggiungile solo se la Tavola le usa già.
 
 *Costruito sulla struttura della fonte* (§ 6.1 e § 3.5: tag di direttivo, relatore, location e Zona; link a Round Table Events). Quando: **insieme all'evento, il prima possibile**, anche mesi prima se la data è nota (chiarito; il Vademecum dice 2-3 settimane prima, che resta il minimo).
 
-Questo è il **modello unico** per il post che annuncia un evento aperto: le altre skill (per esempio `rt-crescita`) rimandano qui, non ne tengono una copia.
+Questo è il **modello unico** per il post che annuncia un evento aperto: gli altri file (per esempio [regole-crescita.md](regole-crescita.md)) rimandano qui, non ne tengono una copia.
 
 ```text
 [Gancio: il tema della serata detto come una domanda o una promessa]
@@ -210,7 +210,7 @@ Solo con il consenso del socio.
 
 ### 4.7 Messaggio diretto a un professionista
 
-Non duplicato qui: usa il modello e le regole della skill `rt-crescita` (file `references/linkedin.md`, § 4). Principi del vademecum (§ 8.5): niente messaggi di massa; citare qualcosa del profilo; prima la persona (due righe), poi l'evento; prima call to action "Ti potrebbe interessare partecipare?", **mai** "Vuoi entrare in Round Table?"; rispondere entro 24 ore.
+Non duplicato qui: usa il modello e le regole di [linkedin.md](linkedin.md), § 4, e [regole-linkedin.md](regole-linkedin.md). Principi del vademecum (§ 8.5): niente messaggi di massa; citare qualcosa del profilo; prima la persona (due righe), poi l'evento; prima call to action "Ti potrebbe interessare partecipare?", **mai** "Vuoi entrare in Round Table?"; rispondere entro 24 ore.
 
 ---
 

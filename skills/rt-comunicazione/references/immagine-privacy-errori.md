@@ -16,7 +16,7 @@ Il vademecum è diviso in quattro file; i rimandi "§" seguono la numerazione or
 
 Le regole derivano dallo **Statuto** e dal **Regolamento sull'uso del marchio approvati dal Comitato Nazionale**. Valgono **per Tavole e Zone allo stesso modo** e **non sono negoziabili**: sono ciò che rende la Round Table riconoscibile in tutta Italia.
 
-**Logo, stemma, colori (HEX, RGB, CMYK, Pantone), font, versioni ammesse, cose da non fare, immagini a tema, pin e coin: vedi la skill `rt-logo`** (file `references/linee-guida-logo.md`), che è la casa di queste regole. Il vademecum le riassume (capitoli 10.1–10.5) con valori identici; qui restano solo le **differenze** e i chiarimenti che servono a chi prepara un contenuto. Per le regole di dettaglio usa `rt-logo`.
+**Logo, stemma, colori (HEX, RGB, CMYK, Pantone), font, versioni ammesse, cose da non fare, immagini a tema, pin e coin: vedi [linee-guida-logo.md](linee-guida-logo.md)**, che è la casa di queste regole. Il vademecum le riassume (capitoli 10.1–10.5) con valori identici; qui restano solo le **differenze** e i chiarimenti che servono a chi prepara un contenuto. Per le regole di dettaglio usa [logo.md](logo.md) e [linee-guida-logo.md](linee-guida-logo.md).
 
 Due indicazioni del vademecum valgono per tutti i contenuti social: **logo e stemma sempre presenti sulle slide grafiche** (§ 7.1) e **nessun elemento grafico, nastro o adesivo** sopra la rondella.
 
@@ -35,7 +35,7 @@ Confronto con le linee guida (anno sociale 2024-2025, versione 2, più alcune pa
 
 | Tema | Vademecum 2026/27 | Linee guida logo | Valutazione |
 | --- | --- | --- | --- |
-| Valori dei colori | HEX, RGB, PMS | HEX, RGB, **CMYK**, PMS | Valori identici; il vademecum omette il CMYK, che è nelle linee guida e nel Regolamento dell'Annuario (skill `rt-logo`). "Black 6 C" invece di "BLACK 6 C": solo maiuscole |
+| Valori dei colori | HEX, RGB, PMS | HEX, RGB, **CMYK**, PMS | Valori identici; il vademecum omette il CMYK, che è nelle linee guida e nel Regolamento dell'Annuario ([linee-guida-logo.md](linee-guida-logo.md)). "Black 6 C" invece di "BLACK 6 C": solo maiuscole |
 | Nome del font titoli | "Mr Eaves XL" | "Mr. Eaves XL" | Solo grafia. Il vademecum aggiunge il perché: con i font ufficiali le locandine di città lontane tra loro si riconoscono subito come Round Table |
 | Font del marchio | Non citato: solo Mr Eaves XL e Proxima Nova | Font per le grafiche | Statuto (Titolo IX, punto 1): il marchio usa **Noto Sans**. Mr Eaves e Proxima Nova sono consigliati per le grafiche |
 | Dove sono i font | Kit del brand su **Canva PRO** o tabler.world | Tabler World (Canva PRO dal Manuale, per stemmi e grafiche) | Il vademecum aggiunge i font nel kit Canva |
@@ -45,14 +45,14 @@ Confronto con le linee guida (anno sociale 2024-2025, versione 2, più alcune pa
 | Materiale di tavola | Elenco chiuso con "**felpe**" | "hoodies", elenco aperto ("ecc.") | Equivalente; non leggere l'elenco del vademecum come esaustivo. Per **pin e coin** vale lo Statuto: il pin contiene l'insegna, il coin ha la rondella nazionale (il "logo nazionale" dello Statuto) sul lato principale (Titolo IX, punti 3 e 4), quindi non "solo stemma" |
 | Riferimenti osceni, politici, religiosi | Divieto su **grafiche, pin, coin e qualunque materiale** con il marchio | Divieto scritto solo per **pin e coin** | Il vademecum estende il divieto. Basi nello Statuto: Titolo IX, punti 3 e 4 (pin e coin: niente di osceno, provocatorio, denigratorio o religioso); art. 1 c. 3 (vietate discussioni e votazioni su partiti politici, religioni, problemi etnici o razziali). Vedi § 11 |
 | Monocromatico | Esplicito: solo **bianco o nero** | Le quattro versioni autorizzate (a colori con scritta nera o bianca, tutta bianca, tutta nera) | Coerente; il vademecum elenca le versioni Canva come "a colori, bianca, nera" senza distinguere la scritta nera o bianca. Statuto (Titolo IX, punto 1): **a colori di regola**; tutta bianca o tutta nera solo se serve |
-| Rondella da sola | "Va sempre accompagnata dalla **dicitura di Tavola, Zona** o dal **logo completo**" | Divieto senza spiegazione; ambito da verificare (punti da verificare delle linee guida, skill `rt-logo`) | Il vademecum chiarisce in parte: la rondella va con la dicitura |
+| Rondella da sola | "Va sempre accompagnata dalla **dicitura di Tavola, Zona** o dal **logo completo**" | Divieto senza spiegazione; ambito da verificare (punti da verificare delle linee guida, [logo.md](logo.md)) | Il vademecum chiarisce in parte: la rondella va con la dicitura |
 | Immagini a tema | Solo **sfondo o cornice dello stemma** | Stessa regola, con esempi (arcobaleno, cornice, baffo, rosa) | Coerente |
 | Pin e coin | Autorizzazione preventiva del CN via mail con grafica e spiegazione; già autorizzati riproducibili | Stesso, più misure del coin, "you"/"me", motto, eccezione **RT Family**, controllo pre-produzione, indirizzo `CN@roundtable.it` (Manuale) | Il vademecum è un sottoinsieme. Vale lo Statuto (Titolo IX, punti 3-5): "You" e "Me" sono l'eccezione ammessa sopra la rondella; riproduzione senza nuova autorizzazione scritta solo per i pin (il Regolamento dell'Annuario la estende); uso non autorizzato sanzionato |
 | Composizione | Nessuna indicazione su posizione (fig. 3) né sulla versione orizzontale preferita | Stemma a destra o sotto il logo; preferita la versione orizzontale a colori con scritta nera | Statuto (Titolo IX, punto 1): **orizzontale di regola**, verticale e intermedio (il quadrato) solo per spazi ridotti. Per la posizione dello stemma usare le linee guida |
 | Accesso a Canva PRO | Invito del **P.R.O. Nazionale** all'**alias di Tavola**, mai all'indirizzo personale di un socio | Accesso con la **mail di tavola `@roundtable.it`** (Manuale) | Deciso: è la stessa casella. Si entra con la mail di tavola; se l'accesso manca, invito del P.R.O. Nazionale (§ 5.1) |
-| A chi chiedere sui loghi | **P.R.O. di Zona** per loghi, stemmi e conformità; **CN** per pin e coin | **CN** in caso di dubbio (Manuale) | Prima il P.R.O. di Zona (vademecum, più recente), poi il CN. Stessa regola in `rt-logo` |
+| A chi chiedere sui loghi | **P.R.O. di Zona** per loghi, stemmi e conformità; **CN** per pin e coin | **CN** in caso di dubbio (Manuale) | Prima il P.R.O. di Zona (vademecum, più recente), poi il CN. Stessa regola in [logo.md](logo.md) |
 | File ufficiali | tabler.world, livello Italia, sezione documenti, tre dimensioni, orizzontale/verticale/quadrata, CMYK/PMS/RGB, accesso a Presidenti, Vice, webmaster, segretari; gli stessi materiali sono **già pronti in Canva PRO**, "la via più rapida" per la produzione quotidiana | Identico (senza Canva) | Coerente (stessa ambiguità su "tre dimensioni": § 17); per vecchie versioni del marchio il vademecum indica come fonti solo Canva PRO e tabler.world. La versione "quadrata" è l'"intermedio" dello Statuto. Le pagine documenti chiedono sempre il login da socio |
-| Materiale fisico all'evento | Roll-up, bandiera, gagliardetto, stendardo, pin indossati nelle foto | Roll-up non citato tra il materiale di tavola (punti da verificare delle linee guida, skill `rt-logo`) | Nessuna regola nuova: per roll-up e stendardi usare logo + stemma |
+| Materiale fisico all'evento | Roll-up, bandiera, gagliardetto, stendardo, pin indossati nelle foto | Roll-up non citato tra il materiale di tavola (punti da verificare delle linee guida, [logo.md](logo.md)) | Nessuna regola nuova: per roll-up e stendardi usare logo + stemma |
 
 ## 11. Privacy, decoro e buon senso
 
@@ -92,8 +92,8 @@ La fonte non indica come raccogliere il consenso (verbale, scritto, modulo): ved
 | Per cosa | A chi | Come |
 | --- | --- | --- |
 | **Accesso a Canva PRO** | **P.R.O. Nazionale** | Scrivere: invierà l'invito all'**alias della Tavola** (chiarito: la mail di tavola `@roundtable.it`) |
-| **Dubbi su loghi, stemmi e conformità di una grafica** | **P.R.O. di Zona**, poi il **Comitato Nazionale** | Il CN come riferimento viene dal *Manuale*; regole nella skill `rt-logo` |
-| **Pin e coin** | **Comitato Nazionale** | Autorizzazione preventiva via mail, allegando grafica e spiegazione (skill `rt-logo`) |
+| **Dubbi su loghi, stemmi e conformità di una grafica** | **P.R.O. di Zona**, poi il **Comitato Nazionale** | Il CN come riferimento viene dal *Manuale*; regole in [logo.md](logo.md) |
+| **Pin e coin** | **Comitato Nazionale** | Autorizzazione preventiva via mail, allegando grafica e spiegazione ([logo.md](logo.md)) |
 | **Patrocinio RTIT per un evento internazionale** (chiarito: non è nel vademecum) | **Comitato Nazionale** | Richiesta via mail (§ 10) |
 | **Far rilanciare un contenuto sui canali nazionali** | **P.R.O. di Zona** | Inviarglielo: lo segnalerà al livello nazionale |
 | **News per il sito nazionale** | **P.R.O. di Zona** | 15-20 righe + 3-5 foto entro una settimana (§ 9.2) |

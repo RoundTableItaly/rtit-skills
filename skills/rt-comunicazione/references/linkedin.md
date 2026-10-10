@@ -42,7 +42,7 @@ Prima di iniziare qualsiasi attività di outreach, la pagina LinkedIn della tavo
 
 Versione unica della checklist: unisce questa guida e il *Vademecum della Comunicazione 2026/27* (le aggiunte del vademecum sono marcate *[Vademecum]*). La skill `rt-comunicazione` rimanda qui.
 
-- [ ] Logo della tavola **ad alta risoluzione** come immagine profilo; *[Vademecum]* secondo le **versioni ammesse** del logo (vedi la skill `rt-logo`).
+- [ ] Logo della tavola **ad alta risoluzione** come immagine profilo; *[Vademecum]* secondo le **versioni ammesse** del logo (vedi [logo.md](logo.md)).
 - [ ] Immagine di copertina con foto dell'ultimo evento o branding Round Table.
 - [ ] Descrizione aggiornata con le **3 anime**: charity, networking, goliardia.
 - [ ] Link al sito web e ai social della tavola; *[Vademecum]* anche a **Round Table Events** (oggi App RTIT, `https://app.roundtable.it`; da verificare).

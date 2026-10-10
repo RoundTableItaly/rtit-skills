@@ -1,16 +1,6 @@
----
-name: rt-calendario
-description: >-
-  Sceglie e verifica le date degli eventi della tavola: punteggio di sovrapposizione del Planner dell'App
-  RTIT (N/100), date alternative, confronto del calendario Google della tavola con gli eventi in archivio.
-  Usala per "va bene il 23 ottobre per la cena?", "quale sabato di novembre è libero?", "ci sono
-  sovrapposizioni?", "cosa c'è di nuovo nel nostro calendario?", "importa il calendario". Per eventi di
-  altre tavole e statistiche usa rt-app-rtit.
----
-
 # Le nostre date: Planner e calendario della tavola
 
-Questa skill si occupa delle **date della tavola**: scegliere quella giusta e tenere allineati calendario e archivio. Per gli eventi delle altre tavole, le schede delle unità e le statistiche usa `rt-app-rtit`.
+Parte della skill `rt-evento` (sezione 1): le **date della tavola**, scegliere quella giusta e tenere allineati calendario e archivio. Per gli eventi delle altre tavole, le schede delle unità e le statistiche vedi la sezione 4 della skill e [strumenti-mcp.md](strumenti-mcp.md).
 
 Due fonti, entrambe **in sola lettura**:
 
@@ -23,8 +13,8 @@ Il Manuale del buon Presidente chiede di controllare, prima di fissare una data,
 
 ## Scegliere una data
 
-- **Con il server MCP dell'App RTIT** (il modo migliore): `check_date_conflicts(date, organization_unit=<slug della tavola>)` per una data, `scan_conflicts(start_date, end_date)` per un periodo (massimo 366 giorni). Parametri e risposte: vedi la skill `rt-app-rtit` (file `references/strumenti-mcp.md`).
-- **Con terminale**: `rtit app-rtit data 2027-10-23` → punteggio e conflitti; `rtit app-rtit planner --mesi 3` → giorni sotto soglia o con conflitti `danger`/`warning`. API e campi: [references/app-rtit.md](references/app-rtit.md).
+- **Con il server MCP dell'App RTIT** (il modo migliore): `check_date_conflicts(date, organization_unit=<slug della tavola>)` per una data, `scan_conflicts(start_date, end_date)` per un periodo (massimo 366 giorni). Parametri e risposte: vedi [strumenti-mcp.md](strumenti-mcp.md).
+- **Con terminale**: `rtit app-rtit data 2027-10-23` → punteggio e conflitti; `rtit app-rtit planner --mesi 3` → giorni sotto soglia o con conflitti `danger`/`warning`. API e campi: [app-rtit-cli.md](app-rtit-cli.md).
 - **Senza terminale né MCP**: se puoi navigare, apri https://app.roundtable.it/planner; altrimenti guida l'utente a farlo e a riportarti il punteggio.
 
 Regole di lettura:
@@ -39,7 +29,7 @@ Regole di lettura:
 - **Con connettore Google Calendar**: leggi gli eventi dei prossimi 120 giorni e applica le stesse regole qui sotto.
 - **Solo chat**: chiedi all'utente di incollare l'elenco.
 
-Indirizzo iCal, abbinamento con l'archivio e decisioni salvate: [references/calendario.md](references/calendario.md).
+Indirizzo iCal, abbinamento con l'archivio e decisioni salvate: [calendario.md](calendario.md).
 
 ### Regole per tipo di evento (dal titolo, configurabili nel profilo)
 
@@ -54,11 +44,3 @@ Indirizzo iCal, abbinamento con l'archivio e decisioni salvate: [references/cale
 Per ogni evento `nuovo` o `cambiato` da gestire, fai una domanda a scelta multipla: ignora (e salva la decisione con `rtit decisioni ignora-calendario …`, così non verrà più proposto) · crea o aggiorna la nota evento · bollettino · Tabler World · crea la cartella evento nell'archivio · salta.
 
 **Mai** creare note, bollettini, eventi su Tabler World o cartelle senza conferma esplicita.
-
-## Collegate
-
-- `rt-app-rtit` — eventi di altre tavole, zone e nazionale, schede delle unità, statistiche.
-- `rt-evento` — organizzare l'evento una volta scelta la data.
-- `rt-bollettino` — invito ufficiale per un evento del calendario.
-- `rt-archivio` — cartella dell'evento nell'archivio condiviso.
-- `rt-cosa-fare` — quadro complessivo di eventi e cose mancanti.

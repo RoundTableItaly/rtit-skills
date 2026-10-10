@@ -18,8 +18,8 @@ File di destinazione (percorsi relativi a questa cartella). I capitoli del vadem
 
 Parti spostate in altre skill (una sola "casa" per ogni regola):
 
-- checklist della pagina LinkedIn della tavola (§ 8.4): skill `rt-crescita`, [linkedin.md](../../skills/rt-crescita/references/linkedin.md) § 1.1, versione unica con la *Strategia LinkedIn*; in LF § 8.4 resta una sintesi con il rimando;
-- logo, stemma, colori, font, cose da non fare (§ 10.1–10.5): skill `rt-logo`, [linee-guida-logo.md](../../skills/rt-logo/references/linee-guida-logo.md), con valori identici; in IP § 10 restano i chiarimenti dallo Statuto e in § 10.6 le differenze.
+- checklist della pagina LinkedIn della tavola (§ 8.4): [linkedin.md](../../skills/rt-comunicazione/references/linkedin.md) § 1.1, versione unica con la *Strategia LinkedIn*; in LF § 8.4 resta una sintesi con il rimando;
+- logo, stemma, colori, font, cose da non fare (§ 10.1–10.5): [linee-guida-logo.md](../../skills/rt-comunicazione/references/linee-guida-logo.md), con valori identici; in IP § 10 restano i chiarimenti dallo Statuto e in § 10.6 le differenze.
 
 ## Mappa pagina per pagina
 
@@ -42,20 +42,20 @@ Parti spostate in altre skill (una sola "casa" per ogni regola):
 | 9 | 7 / 7.1 | Introduzione Instagram; post e caroselli (4:5, 1080 × 1350 px, 3-8 slide); caption in 4 passi con esempi; "Prima di premere pubblica" (4 punti) | IG § 7.1, § 7.4; CK B; TT § 1; SK | Hashtag riportati esattamente |
 | 9-10 | 7.2 | Storie (9:16, 1080 × 1920 px; sticker; link; ricondivisione; contenuti in evidenza) | IG § 7.2; CK B; TT § 2 | |
 | 10 | 7.3 | Reel: tabella struttura (3 × 3), tre accorgimenti, riquadro "Diversifica secondo il motivo per cui si entra in Tavola" | IG § 7.3; CK B; TT § 3 | |
-| 11 | 8 | Introduzione LinkedIn con caso di studio di una tavola (circa 20 contatti, ~50% risposte, una decina di prospect, stampa locale, nuovi soci) | LF § 8 | Nome della città della tavola generalizzato; numeri conservati; coincide con il caso della *Strategia LinkedIn* (`rt-crescita`) |
+| 11 | 8 | Introduzione LinkedIn con caso di studio di una tavola (circa 20 contatti, ~50% risposte, una decina di prospect, stampa locale, nuovi soci) | LF § 8 | Nome della città della tavola generalizzato; numeri conservati; coincide con il caso della *Strategia LinkedIn* (`linkedin.md`) |
 | 11 | 8.1 | Riquadro "La regola del tono su LinkedIn" (fuori, dentro, prova del nove) | LF § 8.1; CK B; TT § 4 | |
 | 11 | 8.2 | Cosa pubblicare (6 tipi) | LF § 8.2; TT § 4.2-4.6 | |
 | 11-12 | 8.3 | Come si scrive un post (6 passi, a cavallo di pagina) | LF § 8.3; TT § 4.1; SK | |
-| 12 | 8.4 | Checklist pagina della Tavola (5); profili personali (4) | Checklist: `rt-crescita` linkedin.md § 1.1 (sintesi in LF § 8.4); profili: LF § 8.4; TT § 9.3, § 10.2-10.3 | Esempio di titolo "Titolare Azienda X \| Membro Round Table [Città]" invariato |
-| 12 | 8.5 | Contatto diretto (5 principi), rimando alla guida nazionale | LF § 8.5; TT § 4.7 | Template del messaggio non duplicato: è in `rt-crescita` |
+| 12 | 8.4 | Checklist pagina della Tavola (5); profili personali (4) | Checklist: linkedin.md § 1.1 (sintesi in LF § 8.4); profili: LF § 8.4; TT § 9.3, § 10.2-10.3 | Esempio di titolo "Titolare Azienda X \| Membro Round Table [Città]" invariato |
+| 12 | 8.5 | Contatto diretto (5 principi), rimando alla guida nazionale | LF § 8.5; TT § 4.7 | Template del messaggio non duplicato: è in `linkedin.md` § 4 |
 | 12 | 9.1 | Facebook | LF § 9.1; TT § 5 | |
 | 13 | 9.2 | Sito nazionale e news (cosa, come: 15-20 righe, 3-5 foto, una settimana; bio allineate) | LF § 9.2; CK B; TT § 7, § 10.1 | |
 | 13 | 9.3 | Stampa locale (3 punti) | LF § 9.3; CK B; TT § 6 | TT § 6.1 annuncio (prima), § 6.2 resoconto (dopo) |
-| 13 | 10 / 10.1 | Base (Statuto e Regolamento), logo e stemma (6 punti) | IP § 10 (base, rimando e chiarimenti dallo Statuto); dettaglio in `rt-logo`; differenze in IP § 10.6 | Confrontato con `rt-logo` |
-| 14 | 10.2 | Tabella "Cose da non fare mai" (6 × 2); immagini a tema; pin e coin | `rt-logo`; differenze in IP § 10.6 | |
-| 14 | 10.3 | Tabella colori (5 × 4: HEX, RGB, PMS) | `rt-logo`; differenze in IP § 10.6 | Valori identici alle linee guida del logo; CMYK assente nel vademecum |
-| 14 | 10.4 | Font (Mr Eaves XL, Proxima Nova) | `rt-logo`; differenze in IP § 10.6 | Città dell'esempio conservate: non riferite a tavole |
-| 15 | 10 | Riquadro "Dove trovare i file ufficiali" | `rt-logo` (dove trovare i loghi); IP § 10 | |
+| 13 | 10 / 10.1 | Base (Statuto e Regolamento), logo e stemma (6 punti) | IP § 10 (base, rimando e chiarimenti dallo Statuto); dettaglio in `linee-guida-logo.md`; differenze in IP § 10.6 | Confrontato con `linee-guida-logo.md` |
+| 14 | 10.2 | Tabella "Cose da non fare mai" (6 × 2); immagini a tema; pin e coin | `linee-guida-logo.md` e `logo.md`; differenze in IP § 10.6 | |
+| 14 | 10.3 | Tabella colori (5 × 4: HEX, RGB, PMS) | `linee-guida-logo.md`; differenze in IP § 10.6 | Valori identici alle linee guida del logo; CMYK assente nel vademecum |
+| 14 | 10.4 | Font (Mr Eaves XL, Proxima Nova) | `linee-guida-logo.md`; differenze in IP § 10.6 | Città dell'esempio conservate: non riferite a tavole |
+| 15 | 10 | Riquadro "Dove trovare i file ufficiali" | `logo.md` (dove trovare i loghi); IP § 10 | |
 | 15 | 11 | Privacy, decoro e buon senso (7 punti) | IP § 11; CK B; SK; TT (note) | Chiarimento sull'art. 1 c. 3 dello Statuto |
 | 15-16 | 12 | Tabella errori comuni (10 × 3, a cavallo di pagina) | IP § 12 | Tabella ricomposta |
 | 16-17 | 13 | Checklist rapida (Prima 6, Durante 6, Dopo 6; a cavallo di pagina) | RT § 13; CK A (testo integrale) e B | |
@@ -69,7 +69,7 @@ Tutte marcate come tali nei file:
 
 - RT, IG, LF, IP, CK, TT, SK: le frasi "**Chiarito**" (verifica di ottobre 2026, vedi [audit-statuto-2026.md](audit-statuto-2026.md)). Vengono dallo Statuto (art. 1 c. 3; art. 16 c. 3; art. 20 c. 5; art. 49 c. 1 lett. e; art. 50 c. 1; art. 72 c. 1 lett. d e c. 2; Titolo IX), dall'Annuario 2025-2026 (regolamento loghi, mansionari, manifestazioni nazionali) e dalle decisioni 13-22, 34-35, 40-41 e 43-48. Il testo della fonte resta riconoscibile accanto al chiarimento. Unica riga della fonte modificata: nella tabella di RT § 6.3 "Materiale grezzo al P.R.O. di Zona" è diventato "al P.R.O. di Tavola e di Zona", con nota. La grafia "Canva Pro" della fonte è scritta ovunque "Canva PRO".
 - RT, IG, LF, IP: indice esteso, § 6.4 "Linea del tempo completa" (unione di § 3.5 e § 6.3), § 7.4 "Instagram in sintesi", § 10.6 differenze con le linee guida del logo, § 15 riepilogo numerico, § 16 "Cosa la fonte non dice", § 17 punti da verificare e tabella "Punti chiusi"; indirizzo di Round Table Events e `CN@roundtable.it` presi dal *Manuale del buon Presidente* e dichiarati come tali.
-- IP § 10: i capitoli 10.1-10.5 del vademecum stanno in `rt-logo`; in IP § 10 c'è l'elenco "Chiarito" con le sole regole che servono a chi prepara un contenuto (logo nazionale e patrocinio, versione del logo, interclub e stemma nei post, pin e coin, font del marchio, login a Tabler World). L'elenco degli eventi nazionali e i valori CMYK non sono ripetuti: sono in `rt-conoscenza` (annuario-regolamenti.md, § 15 e § 2) e in `rt-logo`.
+- IP § 10: i capitoli 10.1-10.5 del vademecum stanno in `linee-guida-logo.md` e `logo.md` (stessa skill); in IP § 10 c'è l'elenco "Chiarito" con le sole regole che servono a chi prepara un contenuto (logo nazionale e patrocinio, versione del logo, interclub e stemma nei post, pin e coin, font del marchio, login a Tabler World). L'elenco degli eventi nazionali e i valori CMYK non sono ripetuti: sono in `rt-conoscenza` (annuario-regolamenti.md, § 15 e § 2) e in `linee-guida-logo.md`.
 - CK: versione B (stessa sostanza della fonte, riordinata per momento con i rimandi ai capitoli).
 - TT: tutti i template marcati "costruito sulla struttura della fonte" (caption, locandina, storie, LinkedIn, Facebook, comunicato, news, messaggi interni, bio). Il comunicato stampa e la news non hanno un modello nella fonte; il paragrafo "Chi è la Round Table" usa solo elementi del vademecum.
 - SK: intero file.

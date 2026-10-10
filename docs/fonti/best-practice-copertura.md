@@ -12,8 +12,8 @@ File di destinazione:
 - LU = [link-ufficiali.md](../../skills/rt-conoscenza/references/link-ufficiali.md)
 - GL = [glossario.md](../../skills/rt-conoscenza/references/glossario.md)
 - MP = [manuale-presidente.md](../../skills/rt-presidente/references/manuale-presidente.md) (distillato completo del Manuale)
-- U = [rtit-university.md](../../skills/rt-crescita/references/rtit-university.md) (distillato completo di RTIT University)
-- LI = [linkedin.md](../../skills/rt-crescita/references/linkedin.md) (distillato completo della Strategia LinkedIn)
+- U = [rtit-university.md](../../skills/rt-comunicazione/references/rtit-university.md) (distillato completo di RTIT University)
+- LI = [linkedin.md](../../skills/rt-comunicazione/references/linkedin.md) (distillato completo della Strategia LinkedIn)
 
 ## Mappa sezione per sezione
 
@@ -24,24 +24,24 @@ File di destinazione:
 | Fonti (3 documenti) | BP intestazione; distillati MP, U, LI | Autori ridotti agli enti nazionali, con due eccezioni volute: l'autore di riferimento di RTIT University (Tobias Eder) e il caso di studio della Strategia LinkedIn (Tavola di Rovereto), indicati in U, LI e in [README.md](README.md) |
 | Nota "link estratti dalle annotazioni del PDF" | LU introduzione | Conservata |
 | Rimandi a convenzioni e file interni | Rimossi | Non pertinenti per un repository pubblico |
-| § 1 Adempimenti: legali e amministrazione, quote, assemblee e candidature | BP § 1 (sintesi + rimando a `rt-presidente` e `rt-direttivo`); MP § 1–4; LU Adempimenti | Regole e scadenze complete in MP; relazione morale, quote, "CZ" e deleghe corretti con lo Statuto (vedi sotto) |
+| § 1 Adempimenti: legali e amministrazione, quote, assemblee e candidature | BP § 1 (sintesi + rimando a `rt-presidente`, compreso `references/direttivo.md`); MP § 1–4; LU Adempimenti | Regole e scadenze complete in MP; relazione morale, quote, "CZ" e deleghe corretti con lo Statuto (vedi sotto) |
 | § 2 Anagrafica e annuario | BP § 2; MP § 5; LU Tabler World; GL Tabler World, Annuario | |
-| § 2 Eventi su Tabler World (dal 2025) | BP § 2 (rimando a `rt-calendario`); MP § 6.2–6.3; LU App RTIT e Round Table Events | Gli eventi si caricano su Tabler World dal portale; aggiunta la nota sull'App RTIT come strumento attuale |
-| § 2 Strumenti locali per pubblicare eventi e bollettini | Rimosso | Per i bollettini c'è la skill `rt-bollettino`; gli eventi si caricano su Tabler World dal portale |
+| § 2 Eventi su Tabler World (dal 2025) | BP § 2 (rimando a `rt-evento`); MP § 6.2–6.3; LU App RTIT e Round Table Events | Gli eventi si caricano su Tabler World dal portale; aggiunta la nota sull'App RTIT come strumento attuale |
+| § 2 Strumenti locali per pubblicare eventi e bollettini | Rimosso | Per i bollettini c'è la skill `rt-evento` (`references/bollettino.md`); gli eventi si caricano su Tabler World dal portale |
 | § 2 Nuovo socio: pergamena e welcome kit | MP § 7.1; GL Pergamena, Welcome kit | |
-| § 2 Bollettino e pubblicità | BP § 2 (rimando a `rt-bollettino`); MP § 6.4; GL Bollettino | |
+| § 2 Bollettino e pubblicità | BP § 2 (rimando a `rt-evento`); MP § 6.4; GL Bollettino | |
 | § 2 Mail di tavola e Canva | BP § 3 e § 8; GL Mail di tavola, Canva PRO | Si entra con la mail di tavola; se manca l'accesso, invito del P.R.O. Nazionale (vedi `rt-comunicazione`) |
-| § 2 Loghi, pin e grafiche | BP § 4 (rimando a `rt-logo`); MP § 9.2 | |
+| § 2 Loghi, pin e grafiche | BP § 4 (rimando a `rt-comunicazione`, `references/logo.md`); MP § 9.2 | |
 | § 2 eCommerce | BP § 8; LU Crescita, brand e shop | |
-| § 3 Ritmo e calendario, cerimoniale e furti | BP § 5 (rimando a `rt-presidente`, `rt-crescita`); MP § 6.1, § 9.1, § 9.3 | Riunioni e presenze corrette con lo Statuto (art. 54); furti completati con il Regolamento dell'Annuario; tolto "almeno in Italia" |
+| § 3 Ritmo e calendario, cerimoniale e furti | BP § 5 (rimando a `rt-presidente`, `rt-comunicazione`/`references/regole-crescita.md`); MP § 6.1, § 9.1, § 9.3 | Riunioni e presenze corrette con lo Statuto (art. 54); furti completati con il Regolamento dell'Annuario; tolto "almeno in Italia" |
 | § 3 Intertavola, Rotaract e Leo Club | MP § 6.5; GL Intertavola, Rotaract | |
 | § 3 Strumenti di reclutamento del Manuale e stringa Google per LinkedIn | MP § 7.2; LU Crescita | Stringa invariata in MP |
-| § 4 Crescita e reclutamento (obiettivo, numeri HYM ottobre 2024, perché crescere, circoli, mix del calendario, prezzo, giovani e membri d'onore, social, pitch, serata con aspiranti, processo di adesione, business network) | BP § 6 (rimando a `rt-crescita`); U | Contenuto completo in U; nessun nome di città |
+| § 4 Crescita e reclutamento (obiettivo, numeri HYM ottobre 2024, perché crescere, circoli, mix del calendario, prezzo, giovani e membri d'onore, social, pitch, serata con aspiranti, processo di adesione, business network) | BP § 6 (rimando a `rt-comunicazione`, `references/crescita.md`); U | Contenuto completo in U; nessun nome di città |
 | § 5 Does / Don'ts (9 righe) | BP § 10 | Tutte le righe conservate; dichiarata la differenza sui weekend (2-3 nello schema del calendario, 2-4 nei Does) |
 | § 6 Opportunità e servizi RTIT | BP § 8; LU Cerimoniale e regolamenti; GL Strumenti e servizi | Per intero; completati con i regolamenti dell'Annuario; aggiunti gli Awards |
 | § 7 Fondazione RTIT | BP § 9; LU Altro; GL Fondazione RTIT | Per intero; dati istituzionali conservati; invito a verificare l'IBAN; agevolazioni fiscali riscritte dopo la verifica normativa di ottobre 2026 |
 | Link ufficiali dal Manuale (28 URL) | LU | Aggiunti i link dell'App RTIT |
-| Risorse complementari (infografica nazionale, risorse proprie della tavola) | BP § 8 (infografica); BP § 7 (archivio, rimando a `rt-archivio`) | Rimandi a file interni rimossi |
+| Risorse complementari (infografica nazionale, risorse proprie della tavola) | BP § 8 (infografica); BP § 7 (archivio, rimando a `rt-primi-passi`) | Rimandi a file interni rimossi |
 
 Aggiunte non presenti nel vademecum, tutte marcate come tali: BP § 11 Punti da verificare; in LU la sezione App RTIT e la nota sul login (ora chiusa: le pagine `/cms/article` e `/documents` di Tabler World richiedono sempre il login da socio); in GL le poche aggiunte di conoscenza generale marcate "(da confermare)".
 
@@ -71,7 +71,7 @@ Contenuti che non vengono dal vademecum. Ogni punto cita la sua fonte nel testo.
 | BP § 11 | Grandi Amici; punti chiusi | Statuto, art. 32 c. 4; Annuario; prassi indicata dall'utente |
 | LU | Login sempre richiesto per `/cms/article` e `/documents`; rimando alla sintesi dell'Annuario e allo Statuto | Indicazione dell'utente |
 
-Le correzioni di dettaglio che riguardano contenuti non più riportati per intero in BP (rendiconto annuale, candidature al CN, convocazione dell'Assemblea di Tavola, limiti dei membri onorari, logo nelle campagne internazionali, serata con aspiranti) stanno nei distillati delle skill: MP, U e `rt-logo`.
+Le correzioni di dettaglio che riguardano contenuti non più riportati per intero in BP (rendiconto annuale, candidature al CN, convocazione dell'Assemblea di Tavola, limiti dei membri onorari, logo nelle campagne internazionali, serata con aspiranti) stanno nei distillati delle skill: MP, U e `rt-comunicazione` (`references/linee-guida-logo.md`).
 
 Voci del glossario ancora "da completare", perché nessuna fonte le definisce: Responsabile soci, Ladies' Circle / Agora / Tangent, Rotaract / Leo Club, Fundraiser, Gagliardetto, RTIT University.
 

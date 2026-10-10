@@ -58,7 +58,7 @@ Dettagli e spiegazioni, con la numerazione dei capitoli del vademecum: capitoli 
 
 **Locandina: insieme all'evento, il prima possibile** (anche mesi prima se la data è nota; mai sotto le 2-3 settimane, mai "tre giorni prima": 12)
 
-- [ ] **Locandina** fatta in **Canva PRO** da un modello **duplicato** nella cartella della Tavola, con **solo loghi ufficiali** (5.2, 10; controllo con la skill `rt-logo`).
+- [ ] **Locandina** fatta in **Canva PRO** da un modello **duplicato** nella cartella della Tavola, con **solo loghi ufficiali** (5.2, 10; controllo con [logo.md](logo.md)).
 - [ ] Locandina pubblicata su **Instagram** e **LinkedIn** (3.5, 13).
 - [ ] Ricondivisa **in storia** e **dai profili personali** (6.1).
 - [ ] Taggati **direttivo, relatore, location e Zona** (3.5, 6.1).
