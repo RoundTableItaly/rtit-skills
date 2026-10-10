@@ -10,7 +10,7 @@ Istruzioni per assistenti AI che lavorano **con** queste skill (utenti dei diret
 - Mai inventare dati (date, importi, link, regole statutarie): chiedi o rimanda ai documenti ufficiali RTIT, che prevalgono.
 - Anno sociale: inizia il giorno dopo l'AGM e finisce il giorno dell'AGM successivo (Statuto, art. 76). L'AGM si tiene tra il 15 maggio e il 30 giugno (art. 9), di solito il primo sabato di giugno: non dare la data per scontata. Si scrive `AAAA-AAAA`; date esatte nell'App RTIT (`list_statutory_years`).
 - Statuto e Annuario: per le regole statutarie cerca in `skills/rt-conoscenza/references/statuto.md` e cita titolo e articolo; per regolamenti, mansionari e cerimoniale in `skills/rt-conoscenza/references/annuario-regolamenti.md`. Lo Statuto prevale sempre.
-- Archivio condiviso: `Documenti legali/` e `Anni sociali/AAAA-AAAA/` (Eventi, Direttivo, Tesoreria, Comunicazione); ogni evento ha le sottocartelle `Bollettini/`, `Form/` e `Altri documenti/`. Dettagli nella skill `rt-archivio`.
+- Archivio condiviso: `Documenti legali/` e `Anni sociali/AAAA-AAAA/` (Eventi, Direttivo, Tesoreria, Comunicazione); ogni evento ha le sottocartelle `Bollettini/`, `Form/` e `Altri documenti/`. Dettagli nella skill `rt-primi-passi` (sezione "Archivio condiviso").
 - CLI (se c'è un terminale): `uvx --from git+https://github.com/RoundTableItaly/rtit-skills rtit <comando>`, oppure `rtit` se installata. Profilo, in ordine: `--profilo`, `$RTIT_PROFILO`, `./rtit-profilo.yaml`, `~/.rtit/rtit-profilo.yaml`. Il profilo si condivide solo con il direttivo.
 - Privacy: [docs/privacy.md](docs/privacy.md).
 

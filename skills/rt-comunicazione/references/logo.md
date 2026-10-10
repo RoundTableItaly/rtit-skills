@@ -1,23 +1,13 @@
----
-name: rt-logo
-description: >-
-  Controlla l'uso di logo, stemma e rondella secondo le Linee guida ufficiali RTIT: loghi per evento di
-  tavola, intertavola, interclub, zona o nazionale; colori (HEX, CMYK, Pantone), font, versioni ammesse;
-  pin e coin da far approvare al Comitato Nazionale. Usala quando l'utente allega una locandina o un
-  volantino da controllare, o chiede "posso usare il logo così?", "che colori uso?", "vogliamo fare una
-  pin", "logo per Movember".
----
-
 # Logo e grafiche Round Table
 
-Le regole vengono dallo **Statuto** (art. 3 e Titolo IX), dal *Regolamento utilizzo di insegna e loghi* dell'Annuario e dalle *Linee guida utilizzo logo* (Comitato Nazionale, anno sociale 2024-2025, versione 2). Questa skill è la **casa** di colori, font e versioni del logo: le altre skill rimandano qui. **Lo Statuto prevale** sempre, anche sull'Annuario: dove linee guida o Regolamento dicono altro, applica lo Statuto e dillo in una riga, senza presentarlo come questione aperta. **Non inventare regole**: se le fonti non dicono nulla (aree di rispetto, dimensioni minime, sponsor…), dillo e rimanda al Comitato Nazionale.
+Le regole vengono dallo **Statuto** (art. 3 e Titolo IX), dal *Regolamento utilizzo di insegna e loghi* dell'Annuario e dalle *Linee guida utilizzo logo* (Comitato Nazionale, anno sociale 2024-2025, versione 2). Questo file, dentro la skill `rt-comunicazione`, è la **casa** di colori, font e versioni del logo: le altre skill rimandano qui. **Lo Statuto prevale** sempre, anche sull'Annuario: dove linee guida o Regolamento dicono altro, applica lo Statuto e dillo in una riga, senza presentarlo come questione aperta. **Non inventare regole**: se le fonti non dicono nulla (aree di rispetto, dimensioni minime, sponsor…), dillo e rimanda al Comitato Nazionale.
 
 ## File di riferimento
 
 | File | Contenuto |
 | --- | --- |
-| [references/linee-guida-logo.md](references/linee-guida-logo.md) | Tutte le regole, colori, font, esempi, FAQ, contatti, punti da verificare, link |
-| [references/checklist-grafica.md](references/checklist-grafica.md) | Checklist per materiale, istruzioni per chi crea, domande, formato della risposta |
+| [linee-guida-logo.md](linee-guida-logo.md) | Tutte le regole, colori, font, esempi, FAQ, contatti, punti da verificare, link |
+| [checklist-grafica.md](checklist-grafica.md) | Checklist per materiale, istruzioni per chi crea, domande, formato della risposta |
 
 ## Regole che contano di più
 
@@ -33,7 +23,7 @@ Le regole vengono dallo **Statuto** (art. 3 e Titolo IX), dal *Regolamento utili
 
 1. **Descrivi cosa vedi**: loghi, stemmi, versione della rondella, colori, posizione, proporzioni, sfondo, elementi sovrapposti.
 2. Se non è chiaro, chiedi **materiale** ed **evento** (tavola, intertavola, interclub, zona, nazionale in Annuario, internazionale patrocinato da RTIT): cambiano i loghi obbligatori. Il patrocinio RTIT per un evento internazionale si chiede al Comitato Nazionale, via mail (`CN@roundtable.it`).
-3. Applica il **controllo base** e la sezione del materiale in [checklist-grafica.md](references/checklist-grafica.md); rispondi nel formato indicato lì.
+3. Applica il **controllo base** e la sezione del materiale in [checklist-grafica.md](checklist-grafica.md); rispondi nel formato indicato lì.
 4. Codici colore e risoluzione non si verificano da uno screenshot: segnala solo differenze evidenti e chiedi il file originale se serve.
 
 ## Guidare la creazione
@@ -63,10 +53,3 @@ Valgono le regole dello Statuto (Titolo IX, punti 3 e 4); dettagli nelle linee g
 - **Pin, coin, stemmi nuovi o modificati**: sempre il Comitato Nazionale.
 - **Ordine delle fonti**: Statuto, poi Regolamento dell'Annuario, poi vademecum 2026/27 e linee guida (tra questi due vale il più recente); l'ultima parola è del Comitato Nazionale. Le linee guida sono dell'anno sociale 2024-2025: potrebbe esistere una versione più recente.
 - Punti ancora "(da verificare)": linee guida, § 20 (le "tre dimensioni" dei file, la misura con cui confrontare logo e stemma, il Pantone del bianco, la rondella di tavola senza scritta, il roll-up, una possibile versione più recente). Chiusi dal chiarimento del 7 ottobre 2026, quindi **non** presentarli come dubbi: formato quadrato (è l'"intermedio"), pin (vale lo Statuto), rondella nazionale sul coin, patrocinio degli eventi internazionali (al CN via mail).
-
-## Collegate
-
-- `rt-comunicazione` — post, locandine, caroselli e social (vademecum 2026/27; regole di immagine coordinata e differenze con le linee guida in `references/immagine-privacy-errori.md`, § 10); qui solo loghi, stemmi e colori.
-- `rt-bollettino` — contenuti del bollettino; qui solo loghi e grafica.
-- `rt-presidente` — Manuale del buon Presidente (§ 9.2 loghi, § 11 Canva PRO e mail di tavola).
-- `rt-conoscenza` — Statuto (art. 3 e Titolo IX), Regolamento dell'Annuario su insegna e loghi, elenco degli eventi nazionali in Annuario, glossario (tavola, zona, CN) e link ufficiali.

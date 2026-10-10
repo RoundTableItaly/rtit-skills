@@ -24,7 +24,7 @@ Esempio completo e commentato: `rtit profilo nuovo` (copia `src/rtit/templates/p
 | `archivio.percorso` | percorso | — | Cartella **condivisa** della tavola (Drive, OneDrive, Dropbox… sincronizzata); `"."` se il profilo sta nella radice. Senza, si lavora in chat o via connettore |
 | `archivio.servizio` | testo | `cartella` | `google-drive`, `onedrive`, `sharepoint`, `dropbox`, `nextcloud`, `cartella` |
 | `archivio.link` | `markdown`/`wikilink` | `markdown` | Stile dei link (wikilink per Obsidian) |
-| `archivio.documenti_legali` | percorso | `Documenti legali` | Documenti legali generali (vedi la skill `rt-archivio`) |
+| `archivio.documenti_legali` | percorso | `Documenti legali` | Documenti legali generali (vedi [struttura-archivio.md](struttura-archivio.md)) |
 | `archivio.cartelle_legali` | lista | `Statuto e regolamenti`, `Fiscale e PEC`, `Banca`, `Loghi e modelli` | Sottocartelle dei documenti legali |
 | `archivio.anni` | pattern con `{anno}` | `Anni sociali/{anno}` | Cartella dell'anno sociale |
 | `archivio.eventi` / `direttivo` / `tesoreria` / `comunicazione` | pattern con `{anno}` | `Anni sociali/{anno}/Eventi` … | Cartelle dell'anno |

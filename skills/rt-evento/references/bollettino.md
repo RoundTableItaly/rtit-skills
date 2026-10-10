@@ -1,23 +1,13 @@
----
-name: rt-bollettino
-description: >-
-  Prepara il bollettino ufficiale di un evento (invito con data, luogo, dress code, costo, scadenza, firme di
-  Presidente e Segretario, destinatari "e p.c.") con un'intervista guidata, poi produce il testo o il
-  Word/PDF dal modello e lo salva nella cartella Bollettini dell'evento. Usala per "bollettino", "bollettino
-  N.", "invito ufficiale della serata", "prepara il Word per la cena", o quando rt-cosa-fare segnala un
-  bollettino mancante.
----
+# Bollettino evento — intervista guidata
 
-# Bollettino evento
-
-Lingua: **italiano**. **Non inventare** dati mancanti: chiedi. Riepiloga e ottieni l'approvazione **prima** di scrivere file.
+Parte della skill `rt-evento` (sezione 3). Lingua: **italiano**. **Non inventare** dati mancanti: chiedi. Riepiloga e ottieni l'approvazione **prima** di scrivere file.
 
 Regole dal Manuale del Presidente:
 
 - ogni evento pubblicizzato ha un bollettino;
 - l'evento deve essere **già su Tabler World**, o almeno pianificato;
 - su Tabler World c'è un **modello di bollettino** ufficiale: se la tavola usa quello, questa skill serve a raccogliere e controllare i contenuti;
-- loghi: logo di tavola presente, rondella non coperta, deformata o tagliata, logo nazionale solo per eventi nazionali. Per il controllo completo della grafica usa `rt-logo`.
+- loghi: logo di tavola presente, rondella non coperta, deformata o tagliata, logo nazionale solo per eventi nazionali. Per il controllo completo della grafica usa la skill `rt-comunicazione` (file `references/logo.md`).
 
 ## Avanzamento
 
@@ -63,25 +53,17 @@ Mostra il bollettino completo e i file che verranno creati, con il percorso, e c
 
 ## Fase 6 — Nota markdown
 
-Formato esatto (lo legge il generatore Word): [references/formato-nota.md](references/formato-nota.md). Esempi: [references/esempi.md](references/esempi.md).
+Formato esatto (lo legge il generatore Word): [formato-nota.md](formato-nota.md). Esempi: [esempi.md](esempi.md).
 
 - Con archivio: salvala in `<cartella evento>/Bollettini/` con il nome del bollettino; aggiorna la sezione `## Bollettino ufficiale` della nota evento.
 - Senza archivio: mostrala in chat o crea il file che l'utente scaricherà.
 
 ## Fase 7 — Word e PDF
 
-Istruzioni (terminale, esecuzione di codice, solo chat): [references/generazione-word.md](references/generazione-word.md). In breve: `rtit bollettino --md "<cartella evento>/Bollettini/<nota>.md"` crea DOCX e PDF accanto alla nota; `--out-dir` solo per anteprime fuori dall'archivio; `--force` solo dopo conferma; non dichiarare mai un PDF che non esiste.
+Istruzioni (terminale, esecuzione di codice, solo chat): [generazione-word.md](generazione-word.md). In breve: `rtit bollettino --md "<cartella evento>/Bollettini/<nota>.md"` crea DOCX e PDF accanto alla nota; `--out-dir` solo per anteprime fuori dall'archivio; `--force` solo dopo conferma; non dichiarare mai un PDF che non esiste.
 
 ## Dopo
 
 - Nota, DOCX e PDF restano **solo** in `<cartella evento>/Bollettini/`: nessuna copia altrove. Aggiorna l'indice dell'anno, che elenca i bollettini.
 - Allega il PDF all'evento su Tabler World e inoltralo nei canali della tavola.
 - Solo chat: aggiorna il numero dell'ultimo bollettino nel profilo testuale.
-
-## Collegate
-
-- `rt-evento` — nota evento e pack da cui prendere i dati.
-- `rt-logo` — controllo di loghi e grafica del bollettino.
-- `rt-comunicazione` — post e storie per promuovere l'evento.
-- `rt-archivio` — dove sta la cartella `Bollettini/` dell'evento.
-- `rt-primi-passi` — profilo con direttivo, firme e intestazione.

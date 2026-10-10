@@ -12,7 +12,7 @@ Per il Presidente e il Tesoriere. Le regole citate vengono dallo Statuto (con l'
 - **Quando**: lo Statuto non fissa una data propria. L'Assemblea Ordinaria si tiene almeno 25 giorni prima dell'HYM e dell'AGM (art. 44 c. 2); la bozza di Regolamento di Tavola dell'Annuario 2025-2026 mette il rendiconto nell'Assemblea che precede l'AGM. Se la tavola ha un regolamento, segui quello; altrimenti chiedi.
 - Il Manuale parla di "bilancio preventivo" e "bilancio consuntivo" presentati dal Presidente, senza dire quando: è la stessa cosa detta con altre parole; vale lo Statuto.
 - Contenuto minimo (prassi consigliata): entrate (quote dei soci, incassi degli eventi, contributi, sponsor), uscite (quote nazionali e di zona, costi degli eventi, service, materiali, spese bancarie), saldo iniziale e finale del conto.
-- L'approvazione va a verbale (skill `rt-direttivo`).
+- L'approvazione va a verbale ([direttivo.md](direttivo.md)).
 
 ## 2. Quote dei soci
 
@@ -70,7 +70,7 @@ Nella cartella `Anni sociali/{anno}/Tesoreria/` (campo `archivio.tesoreria` del 
 - `AAAA-MM-GG Quote nazionali e di zona - prima rata` · `… - saldo` (con la ricevuta)
 - `AAAA-MM-GG Rendiconto Nome evento` · `AAAA-MM-GG Rendiconto service Nome service`
 
-Le ricevute di un evento restano nella sua cartella (`Altri documenti/`): niente copie (skill `rt-archivio`).
+Le ricevute di un evento restano nella sua cartella (`Altri documenti/`): niente copie (skill `rt-primi-passi`, file `references/struttura-archivio.md`).
 
 ## 8. Modello di rendiconto
 

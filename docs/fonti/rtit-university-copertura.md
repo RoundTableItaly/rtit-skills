@@ -6,8 +6,8 @@ Questa mappa mostra dove è finito, nei file distillati, il contenuto di ogni pa
 
 - **Documento**: "RTIT University: ritorno alle basi", PDF di 23 pagine in formato slide 16:9, realizzato con Canva e datato marzo 2025. Autore di riferimento: **Tobias Eder**, ex IRO ed ex P.R.O. nazionale.
 - **File di destinazione**:
-  - **U** = [`skills/rt-crescita/references/rtit-university.md`](../../skills/rt-crescita/references/rtit-university.md): distillato completo.
-  - **R** = [`skills/rt-crescita/references/regole-crescita.md`](../../skills/rt-crescita/references/regole-crescita.md): regole, template e domande.
+  - **U** = [`skills/rt-comunicazione/references/rtit-university.md`](../../skills/rt-comunicazione/references/rtit-university.md): distillato completo.
+  - **R** = [`skills/rt-comunicazione/references/regole-crescita.md`](../../skills/rt-comunicazione/references/regole-crescita.md): regole, template e domande.
 - **Metodo di lettura**: il testo è stato estratto con `pdftotext -layout`, circa 1.000 parole. Tutte le 23 pagine sono state renderizzate in PNG e lette come immagine, per grafici, diagrammi, schemi e foto. La pagina 16 è stata letta anche ingrandita, per lo screenshot. Le annotazioni link sono state estratte con pypdf.
 
 ## Mappa pagina → destinazione

@@ -85,13 +85,13 @@ Metodo di estrazione: testo con `pdftotext -layout`; link dalle annotazioni `/An
 | TES | Rendiconto, quote dei soci, quote nazionali e di zona, rendiconti di eventi e service, Fondazione | Statuto, art. 32, 33, 45, 52, 53; MP § 3.4, § 4.1, § 10; RO 9–10, 33–36 |
 | ZONA | Comitato di Zona, Assemblea di Zona, report sulle tavole, quote e calendario di zona | Statuto, art. 63-75, 78; MP § 4.1–4.2; strumenti dell'App RTIT; il resto è prassi consigliata |
 
-I modelli della skill `rt-direttivo` (convocazioni, verbali, verbale di elezione) non vengono dal Manuale: seguono lo Statuto, art. 40, 44-51, 77, 78.
+I modelli di `references/modelli-direttivo.md` (convocazioni, verbali, verbale di elezione; fino alla versione 0.3.0 nella skill separata `rt-direttivo`) non vengono dal Manuale: seguono lo Statuto, art. 40, 44-51, 77, 78.
 
 Gli eventi si caricano su Tabler World dal portale: MP, RO e i file sopra non rimandano più a una skill o a comandi dedicati.
 
 ## Punti chiusi dall'audit
 
-Erano segnalati "(da verificare)" e ora hanno una regola: momento del rendiconto (art. 53, 45); anno sociale e finestre di HYM, AGM e Assemblea di Zona (art. 76, 9, 10, 66); AGM di riferimento e termine della relazione morale (art. 49 c. 8); termine e contenuti delle candidature al CN e documento d'identità del candidato (art. 17; decisione 7); destinatario della delega (art. 13; decisione 8); segnaposto `tavola@roundtable.it` (decisione 14); tetto di 30.000 euro riferito alla donazione (decisione 26); login a Tabler World sempre richiesto (decisione 16); "almeno in Italia" nei furti (Regolamento furti); destinatario della delega per l'Assemblea di Zona e documento d'identità nelle candidature, che in MOD e ZONA erano "da verificare" (decisioni 7 e 8); regole di convocazione, quorum e voto di Assemblee e Direttivo, che in `rt-direttivo` rimandavano a uno "Statuto della tavola" (art. 44-51, 77).
+Erano segnalati "(da verificare)" e ora hanno una regola: momento del rendiconto (art. 53, 45); anno sociale e finestre di HYM, AGM e Assemblea di Zona (art. 76, 9, 10, 66); AGM di riferimento e termine della relazione morale (art. 49 c. 8); termine e contenuti delle candidature al CN e documento d'identità del candidato (art. 17; decisione 7); destinatario della delega (art. 13; decisione 8); segnaposto `tavola@roundtable.it` (decisione 14); tetto di 30.000 euro riferito alla donazione (decisione 26); login a Tabler World sempre richiesto (decisione 16); "almeno in Italia" nei furti (Regolamento furti); destinatario della delega per l'Assemblea di Zona e documento d'identità nelle candidature, che in MOD e ZONA erano "da verificare" (decisioni 7 e 8); regole di convocazione, quorum e voto di Assemblee e Direttivo, che in `references/direttivo.md` (allora skill `rt-direttivo`) rimandavano a uno "Statuto della tavola" (art. 44-51, 77).
 
 ## Punti ancora "(da verificare)" in MP
 
