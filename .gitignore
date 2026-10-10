@@ -11,3 +11,5 @@ rtit-profilo.yml
 *.decisioni.yaml
 preview/
 anteprima/
+# Lock di uv: la CI installa con uv pip, il lock non viene usato
+uv.lock

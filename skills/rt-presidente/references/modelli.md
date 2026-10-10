@@ -50,7 +50,7 @@ ______________________________
 [Mario Rossi]
 ```
 
-Promemoria: firma **a mano** sul documento stampato (o come indica il CN) e scansione in PDF. Per le assemblee nazionali invia dalla **PEC della tavola**, con il documento d'identità; per l'Assemblea di Zona basta l'email al Segretario di Zona. Conserva ricevuta e delega in `Documenti legali/Fiscale e PEC/` o in `Direttivo/` dell'anno (vedi la skill `rt-archivio`). Una tavola non in regola con le quote è sospesa dal diritto di voto e di parola all'Assemblea Nazionale successiva (art. 33; § 4.1): verificalo prima.
+Promemoria: firma **a mano** sul documento stampato (o come indica il CN) e scansione in PDF. Per le assemblee nazionali invia dalla **PEC della tavola**, con il documento d'identità; per l'Assemblea di Zona basta l'email al Segretario di Zona. Conserva ricevuta e delega in `Documenti legali/Fiscale e PEC/` o in `Direttivo/` dell'anno (vedi la skill `rt-primi-passi`, file `references/struttura-archivio.md`). Una tavola non in regola con le quote è sospesa dal diritto di voto e di parola all'Assemblea Nazionale successiva (art. 33; § 4.1): verificalo prima.
 
 ---
 
@@ -144,7 +144,7 @@ Sezioni consigliate (prassi consigliata; se l'Editore Nazionale indica un format
 1. **Intestazione**: tavola, anno sociale `AAAA-AAAA`, Presidente.
 2. **Saluto e sintesi**: l'anno in 5–10 righe (spirito, obiettivi, risultato più importante).
 3. **Direttivo e soci**: composizione del direttivo e incarichi (es. P.R.O.); soci all'inizio e alla fine dell'anno; nuovi soci e pinnature; uscite per limite d'età o dimissioni; membri onorari; **attestazione sugli obblighi di presenza** (art. 54 c. 6), solo se il Presidente la conferma.
-4. **Attività dell'anno**: eventi in ordine di data, divisi per tipo (conviviali, serate con relatore, goliardia, service), con 1–3 righe ciascuno. Fonti: indice dell'anno e cartelle evento (`rtit eventi`), eventi pubblici e statistiche dall'App RTIT (`search_events`, `get_organization_unit_statistics`, skill `rt-app-rtit`).
+4. **Attività dell'anno**: eventi in ordine di data, divisi per tipo (conviviali, serate con relatore, goliardia, service), con 1–3 righe ciascuno. Fonti: indice dell'anno e cartelle evento (`rtit eventi`), eventi pubblici e statistiche dall'App RTIT (`search_events`, `get_organization_unit_statistics`, skill `rt-evento`, sezione App RTIT).
 5. **Service e raccolte fondi**: beneficiari, importi raccolti (solo se documentati), uso della Fondazione.
 6. **Rapporti con zona, nazionale e internazionale**: partecipazione ad Assemblee di Zona, HYM, AGM; intertavola e interclub; viaggi e Reciprocità.
 7. **Comunicazione**: canali, risultati principali, uscite sulla stampa.

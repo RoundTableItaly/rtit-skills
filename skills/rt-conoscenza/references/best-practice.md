@@ -34,12 +34,12 @@ Dove il vademecum era impreciso o taceva, il testo è corretto con lo **Statuto*
 - **Deleghe**: all'Assemblea Nazionale la Tavola è rappresentata di diritto da Presidente e Vice Presidente; se sono impediti, il Direttivo delega un altro membro attivo e la delega va al Segretario Nazionale (art. 13; PEC e documento d'identità sono prassi del Manuale). Per l'Assemblea di Zona: delega scritta (art. 69), inviata al **Segretario di Zona via email**.
 - **Assemblea Ordinaria di Tavola**: almeno **25 giorni prima** di ogni Assemblea Nazionale, quindi sia prima dell'HYM sia prima dell'AGM (art. 44 c. 2).
 
-→ Vedi la skill `rt-presidente` (file `references/manuale-presidente.md`: quote al § 4.1, assemblee e deleghe al § 4.2, candidature al CN al § 4.4) e la skill `rt-direttivo` (convocazioni e verbali).
+→ Vedi la skill `rt-presidente` (file `references/manuale-presidente.md`: quote al § 4.1, assemblee e deleghe al § 4.2, candidature al CN al § 4.4) e, nella stessa skill, `references/direttivo.md` (convocazioni e verbali).
 
 ## 2. Tabler World, eventi e bollettino
 
 Dal 2025 i canali nazionali prendono gli eventi da Tabler World (TW): ogni evento va caricato lì, dal portale, prima di pubblicizzarlo, e ogni evento pubblicizzato ha un bollettino. Anagrafica TW aggiornata = Annuario corretto (e quote calcolate bene). Le pagine `it.roundtable.world` con `/cms/article` e `/documents` nell'indirizzo richiedono **sempre** il login da socio.
-→ Vedi le skill `rt-bollettino` (bollettino) e `rt-calendario` (date e Planner dell'App RTIT).
+→ Vedi la skill `rt-evento` (bollettino, date e Planner dell'App RTIT).
 
 ## 3. Comunicazione, mail di tavola e Canva PRO
 
@@ -55,7 +55,7 @@ Ogni tavola ha una mail `@roundtable.it` (Microsoft 365 Business Basic: 50 GB di
 ## 4. Loghi, pin e grafiche
 
 La regola è nello Statuto (Titolo IX); l'uso non autorizzato del marchio è sanzionato. Rondella sempre in primo piano, mai coperta, deformata o tagliata; logo di tavola sempre presente. Il logo nazionale è riservato al Comitato Nazionale, agli eventi nazionali elencati nell'Annuario e a quelli internazionali patrocinati da RTIT; accanto a logo o stemma di tavola ha le stesse misure, mai più piccolo (Titolo IX, punto 2). Ogni nuovo pin e ogni nuovo coin va approvato dal CN (`CN@roundtable.it`) indicando i colori: il pin contiene sempre l'insegna, il coin ha il logo nazionale sul lato principale.
-→ Vedi la skill `rt-logo`.
+→ Vedi la skill `rt-comunicazione` (file `references/logo.md`).
 
 ## 5. Vita di tavola e cerimoniale
 
@@ -63,7 +63,7 @@ Lo Statuto chiede **almeno 20 riunioni** per anno sociale: di regola due al mese
 
 **Furti** (Regolamento furti dell'Annuario): si possono "rubare" solo **campana, stendardo e roll-up**. Il furto va comunicato per iscritto entro **7 giorni**; la restituzione avviene con una visita entro **60 giorni** e **sei bottiglie di vino**; senza comunicazione l'onere si inverte, con una penale di **150 €** al Service nazionale. Vietati collari, libro firme, spade, Carta, materiali nazionali e di Zona; nessun furto durante un Charter Meeting. Il regolamento vale **solo per Tabler italiani in Italia**.
 
-→ Vedi la skill `rt-presidente` (cerimoniale, regolamento furti), la skill `rt-crescita` (programma dell'anno) e [annuario-regolamenti.md](annuario-regolamenti.md) (§ 6 cerimoniale delle conviviali, § 14 regolamento furti).
+→ Vedi la skill `rt-presidente` (cerimoniale, regolamento furti), la skill `rt-comunicazione` (file `references/regole-crescita.md`, programma dell'anno) e [annuario-regolamenti.md](annuario-regolamenti.md) (§ 6 cerimoniale delle conviviali, § 14 regolamento furti).
 
 ## 6. Crescita e reclutamento
 
@@ -73,12 +73,12 @@ Circa 20 eventi all'anno con un mix equilibrato (sono le **20 riunioni minime** 
 - Il processo di adesione non sostituisce la **procedura di ammissione** (art. 59: domanda sostenuta dal socio presentatore, parere del Direttivo, comunicazione ai soci attivi, opposizioni entro 8 giorni, due riunioni ordinarie) né la delibera dell'Assemblea Ordinaria (art. 45 c. 1 lett. a).
 - A livello di tavola si dice "membri onorari" (art. 62); "membro d'onore" è il titolo nazionale.
 
-→ Vedi la skill `rt-crescita` (file `references/rtit-university.md` e `references/linkedin.md`).
+→ Vedi la skill `rt-comunicazione` (file `references/crescita.md`, `references/rtit-university.md` e `references/linkedin.md`).
 
 ## 7. Archivio della tavola
 
 Documenti, eventi, bollettini, verbali e tesoreria stanno in un archivio condiviso dal direttivo, ordinato per anno sociale, senza doppioni.
-→ Vedi la skill `rt-archivio`.
+→ Vedi la skill `rt-primi-passi` (sezione "Archivio condiviso" e file `references/struttura-archivio.md`).
 
 ---
 

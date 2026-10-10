@@ -49,7 +49,7 @@ Gli eventi nazionali in Annuario sono elencati nelle linee guida, § 7. Se l'ute
 - [ ] Logo di tavola **in intestazione**, ben visibile; stemma facoltativo, bilanciato.
 - [ ] Se il bollettino è dell'evento nazionale in annuario: logo nazionale + stemma della tavola organizzatrice.
 - [ ] Il logo non è una vecchia versione rimasta nel modello Word della tavola: la carta intestata va aggiornata (FAQ, § 16). Una bozza Word è su Tabler World.
-- [ ] Contenuti del bollettino (data, location, costo, firme…): li controlla `rt-bollettino`.
+- [ ] Contenuti del bollettino (data, location, costo, firme…): li controlla la skill `rt-evento` (file `references/bollettino.md`).
 
 ## Carta intestata
 
