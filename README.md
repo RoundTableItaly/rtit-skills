@@ -8,19 +8,12 @@ Skill per **Claude, ChatGPT, Gemini, Antigravity e altri assistenti AI** che aiu
 
 | Skill | Ti aiuta a… |
 | --- | --- |
-| `rt-primi-passi` | iniziare: un'intervista breve crea il profilo della tavola, zona o nazionale (ruolo, direttivo e firme, calendario, archivio condiviso) |
+| `rt-primi-passi` | iniziare: un'intervista breve crea il profilo della tavola, zona o nazionale (ruolo, direttivo e firme, calendario); impostare e tenere in ordine l'archivio condiviso su qualsiasi cloud: documenti legali, anni sociali, eventi, senza doppioni |
 | `rt-cosa-fare` | fare il punto: prossimi eventi e cosa manca, novità del calendario, doppioni, date a rischio, scadenze del periodo |
-| `rt-presidente` | sapere cosa devono fare Presidente e direttivo secondo il *Manuale del buon Presidente*: insediamento, quote, HYM, AGM, Assemblea di Zona e deleghe, nuovo socio, tesoreria, relazione morale, passaggio di consegne, direttivo di zona, con modelli pronti |
-| `rt-direttivo` | gestire direttivo e assemblee: convocazioni e ordini del giorno, verbali, registro delle decisioni, verbale di elezione per banca e PEC |
+| `rt-presidente` | sapere cosa devono fare Presidente e direttivo secondo il *Manuale del buon Presidente*: insediamento, quote, HYM, AGM, Assemblea di Zona e deleghe, nuovo socio, tesoreria, relazione morale, passaggio di consegne, direttivo di zona; gestire direttivo e assemblee: convocazioni e ordini del giorno, verbali, registro delle decisioni, verbale di elezione per banca e PEC, con modelli pronti |
+| `rt-evento` | organizzare un evento dalla data al saldo: scegliere e verificare la data con il Planner dell'App RTIT e il calendario della tavola; nota evento, progetto, invitati e spese; bollettino ufficiale con intervista guidata e Word/PDF nella cartella `Bollettini/`; consultare l'App Round Table Italia (server MCP): eventi di altre tavole e zone, email istituzionali, statistiche per anno sociale |
+| `rt-comunicazione` | preparare post, storie, Reel, LinkedIn, comunicati stampa e checklist del P.R.O. (responsabile comunicazione); controllare logo, stemma e rondella secondo le Linee guida RTIT: colori, font, versioni ammesse, pin e coin; far crescere la tavola: diagnosi, programma annuale, serata con aspiranti, pitch di invito, contatti su LinkedIn |
 | `rt-conoscenza` | capire sigle e termini, quando inizia l'anno sociale, livelli, Fondazione RTIT, link ufficiali; consultare lo Statuto (testo integrale) e i regolamenti, i mansionari e il cerimoniale dell'Annuario |
-| `rt-archivio` | impostare e tenere in ordine l'archivio condiviso su qualsiasi cloud: documenti legali, anni sociali, eventi, senza doppioni |
-| `rt-evento` | organizzare un evento dall'idea al saldo: nota evento, progetto, invitati e spese |
-| `rt-bollettino` | preparare il bollettino ufficiale con un'intervista guidata e generare Word/PDF nella cartella `Bollettini/` dell'evento |
-| `rt-calendario` | scegliere e verificare le date: punteggio del Planner dell'App RTIT, date alternative, confronto col calendario della tavola |
-| `rt-app-rtit` | consultare l'App Round Table Italia (server MCP): eventi di altre tavole e zone, email istituzionali, statistiche per anno sociale |
-| `rt-crescita` | far crescere la tavola: diagnosi, programma annuale, serata con aspiranti, pitch di invito, contatti su LinkedIn |
-| `rt-comunicazione` | preparare post, storie, Reel, LinkedIn, comunicati stampa e checklist del P.R.O. (responsabile comunicazione) |
-| `rt-logo` | controllare logo, stemma e rondella secondo le Linee guida RTIT: colori, font, versioni ammesse, pin e coin |
 
 Gli eventi si caricano su **Tabler World** a mano, dal portale dei soci: le skill ti aiutano a preparare dati e testi.
 

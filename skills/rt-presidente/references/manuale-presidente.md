@@ -221,7 +221,7 @@ Prassi del Manuale, in aggiunta: invio via PEC, **firma autografa del Presidente
 ### 6.1 Calendario delle serate
 
 - La **programmazione delle serate** è uno dei momenti più importanti dell'anno: "l'anno finisce in un attimo", bisogna partire subito con le idee chiare.
-- **Statuto, art. 54**: la Tavola deve riunirsi **almeno 20 volte** nell'anno sociale; le riunioni ordinarie si tengono di regola **due volte al mese**, in giorno, ora e luogo prestabiliti, e **almeno una al mese** è preceduta da un pasto in comune. Il Manuale riassume in "due volte al mese". Sono le stesse "circa 20" serate del workshop RTIT University (`rt-crescita`).
+- **Statuto, art. 54**: la Tavola deve riunirsi **almeno 20 volte** nell'anno sociale; le riunioni ordinarie si tengono di regola **due volte al mese**, in giorno, ora e luogo prestabiliti, e **almeno una al mese** è preceduta da un pasto in comune. Il Manuale riassume in "due volte al mese". Sono le stesse "circa 20" serate del workshop RTIT University (skill `rt-comunicazione`, file `references/regole-crescita.md`).
 - Tipi di serata ammessi:
   - mere **conviviali** (aperitivi, cene o altro);
   - serate con un **ospite relatore**;

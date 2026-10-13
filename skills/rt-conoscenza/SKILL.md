@@ -11,7 +11,7 @@ description: >-
 
 # Conoscenza Round Table Italia
 
-Riferimento condiviso da tutte le skill `rt-*`: **vocabolario, link e regole generali**. Le procedure stanno nelle skill operative (`rt-presidente`, `rt-crescita`, `rt-evento`, `rt-bollettino`, `rt-logo`, `rt-comunicazione`…).
+Riferimento condiviso da tutte le skill `rt-*`: **vocabolario, link e regole generali**. Le procedure stanno nelle skill operative (`rt-presidente`, `rt-evento`, `rt-comunicazione`, `rt-primi-passi`, `rt-cosa-fare`).
 
 ## Come rispondere
 
@@ -58,7 +58,7 @@ Le skill si adattano al `livello` del profilo (tavola, zona o nazionale).
 
 - **Eventi**: dal 2025 i canali nazionali (sito eventi, Tabler World, mail, WhatsApp) prendono gli eventi da **Tabler World (TW)**: un evento non caricato lì "non esiste" per il resto dell'associazione. Gli eventi si caricano su Tabler World dal portale.
 - **App RTIT** (https://app.roundtable.it): lo strumento attuale per calendario eventi, Planner e statistiche. Le fonti citano anche "Round Table Events" (`events.roundtable.it`): è il nome precedente o alternativo dello stesso servizio (da verificare). Usa gli indirizzi `app.roundtable.it`.
-- **Bollettino**: ogni evento pubblicizzato ha il suo bollettino ufficiale (vedi la skill `rt-bollettino`).
+- **Bollettino**: ogni evento pubblicizzato ha il suo bollettino ufficiale (vedi la skill `rt-evento`).
 - **Sigla "RTI"**: è ambigua (nello Statuto è la Round Table International, nell'Annuario spesso la Round Table Italia). Scrivi **RTIT** per l'Italia e **RT International** per l'internazionale.
 
 ## Fonti
@@ -68,9 +68,7 @@ Statuto: copia integrale dello *Statuto Nazionale Round Table Italia* (2024). An
 ## Collegate
 
 - `rt-presidente` — adempimenti, scadenze e obblighi del direttivo.
-- `rt-direttivo` — convocazioni, ordini del giorno, verbali.
-- `rt-crescita` — reclutamento, programma dell'anno, aspiranti.
-- `rt-comunicazione` — social, stampa e ruolo del P.R.O. (responsabile comunicazione).
-- `rt-logo` — regole su logo, rondella, colori e font.
-- `rt-app-rtit` — eventi di altre tavole e statistiche dall'App RTIT.
-- `rt-archivio` — dove sono i documenti della tavola.
+- `rt-evento` — eventi, date, bollettino, eventi di altre tavole e statistiche dall'App RTIT.
+- `rt-comunicazione` — social, stampa e P.R.O.; logo, rondella, colori e font; reclutamento e programma dell'anno.
+- `rt-primi-passi` — profilo e archivio: dove sono i documenti della tavola.
+- `rt-cosa-fare` — il punto della situazione a inizio sessione.

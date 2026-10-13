@@ -39,7 +39,7 @@ La versione sta in sei file e deve essere identica: `pyproject.toml`, `src/rtit/
 ## 3. Pull request e merge
 
 - Nessun push diretto su `main` e `develop`: si entra solo con una pull request e con la CI verde.
-- `feature/*` → `develop`: **squash**. Il titolo della pull request diventa il messaggio del commit, in stile [Conventional Commits](https://www.conventionalcommits.org/): `feat(rt-bollettino): …`, `fix(cli): …`, `docs(rt-presidente): …`.
+- `feature/*` → `develop`: **squash**. Il titolo della pull request diventa il messaggio del commit, in stile [Conventional Commits](https://www.conventionalcommits.org/): `feat(rt-evento): …`, `fix(cli): …`, `docs(rt-presidente): …`.
 - `release/*` e `hotfix/*` → `main`, e il rientro di `main` in `develop`: **merge commit**, mai squash. Con lo squash `main` e `develop` perdono la storia comune e al rilascio successivo tutto va in conflitto.
 - Ogni pull request che cambia skill, CLI o pacchetto aggiunge una riga al changelog.
 

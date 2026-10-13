@@ -23,7 +23,7 @@ Instagram è la **vetrina principale verso l'esterno**: serve ad attirare, incur
 - **Formato: verticale 4:5 (1080 × 1350 px).** Occupa più spazio nel feed rispetto al quadrato ed è già preimpostato nei template di Canva.
 - **Carosello da 3 a 8 slide.** La **prima slide è la copertina**: deve contenere una frase forte o l'immagine migliore, perché è l'unica che tutti vedranno.
 - **Alterna foto e grafica.** I **caroselli ibridi** (foto più brevi video) funzionano molto bene: usa un **video breve come slide finale**.
-- **Logo e stemma sempre presenti sulle slide grafiche**, secondo le regole del § 10 ([immagine-privacy-errori.md](immagine-privacy-errori.md)) e della skill `rt-logo`. **Chiarito**: lo Statuto su questo tace, quindi vale il vademecum 2026/27, che è il documento più recente: sulle slide grafiche dei post logo **e** stemma.
+- **Logo e stemma sempre presenti sulle slide grafiche**, secondo le regole del § 10 ([immagine-privacy-errori.md](immagine-privacy-errori.md)) e di [logo.md](logo.md). **Chiarito**: lo Statuto su questo tace, quindi vale il vademecum 2026/27, che è il documento più recente: sulle slide grafiche dei post logo **e** stemma.
 
 **La caption.** Un testo utile viene **salvato**, e **i salvataggi sono ciò che l'algoritmo premia di più**. Non scrivere solo "che bella serata!".
 

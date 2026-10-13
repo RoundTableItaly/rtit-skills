@@ -176,11 +176,11 @@ def cmd_profilo(args: argparse.Namespace) -> int:
         "",
     ]
     labels = {
-        "archivio": "Archivio condiviso della tavola (rt-archivio, rt-evento, rt-cosa-fare)",
-        "calendario": "Calendario iCal (rt-calendario)",
-        "app_rtit": "App RTIT / Planner collisioni (rt-calendario)",
-        "firma_presidente": "Firma Presidente nel direttivo (rt-bollettino)",
-        "firma_segretario": "Firma Segretario nel direttivo (rt-bollettino)",
+        "archivio": "Archivio condiviso della tavola (rt-primi-passi, rt-evento, rt-cosa-fare)",
+        "calendario": "Calendario iCal (rt-evento)",
+        "app_rtit": "App RTIT / Planner collisioni (rt-evento)",
+        "firma_presidente": "Firma Presidente nel direttivo (rt-evento, bollettino)",
+        "firma_segretario": "Firma Segretario nel direttivo (rt-evento, bollettino)",
         "intestazione": "Intestazione bollettino (sede, ritrovi, charter…)",
     }
     lines += [f"- {'✅' if ok else '➖'} {labels[k]}" for k, ok in checks.items()]

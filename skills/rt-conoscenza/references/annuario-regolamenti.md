@@ -16,7 +16,7 @@ Organizzazione in breve (pagine introduttive): le Tavole si riuniscono **due vol
 
 ## 2. Regolamento utilizzo di insegna e loghi
 
-Completa il Titolo IX dello Statuto. Per l'uso pratico vedi `rt-logo`.
+Completa il Titolo IX dello Statuto. Per l'uso pratico vedi la skill `rt-comunicazione` (file `references/logo.md`).
 
 - **Stemma** di Tavola o di Zona = insegna personalizzata della Tavola o della Zona. **Logo** di Tavola o di Zona = marchio nazionale personalizzato con i propri dati.
 - Font del logo: **Noto Sans**, grassetto per l'orizzontale e regolare per il verticale, testo **tutto maiuscolo**. Le Zone scrivono il numero in lettere (PRIMA ZONA, SECONDA ZONA…).

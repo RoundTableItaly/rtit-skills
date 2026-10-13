@@ -63,27 +63,24 @@ Per ogni punto da fare, proponi **un'azione alla volta** con scelte chiare:
 
 - evento `nuovo` o `cambiato` in calendario (tipo `sociale`, `solo_bollettino`, oppure `altro` confermato): ignora (salvando la decisione) · crea la cartella e la nota evento nell'archivio · crea il pack (solo se `sociale`) · bollettino · Tabler World;
 - pack mancante o cose da fare aperte vicine alla data: completa con `rt-evento`;
-- bollettino mancante entro i giorni di `promemoria.bollettino_giorni`: `rt-bollettino`;
+- bollettino mancante entro i giorni di `promemoria.bollettino_giorni`: `rt-evento` (file `references/bollettino.md`);
 - evento non su Tabler World: ricorda di caricarlo dal portale e di salvare `tablerworld_id` nella nota evento;
 - evento da raccontare sui social o alla stampa (prima, durante, dopo): `rt-comunicazione`;
-- data a rischio nel Planner: `rt-calendario`;
-- cartelle con la stessa data: chiedi se sono lo stesso evento e riuniscile (`rt-archivio`);
-- verbale da scrivere o seduta da convocare: `rt-direttivo`.
+- data a rischio nel Planner: `rt-evento` (file `references/date-e-calendario.md`);
+- cartelle con la stessa data: chiedi se sono lo stesso evento e riuniscile (`rt-primi-passi`, sezione "Archivio condiviso");
+- verbale da scrivere o seduta da convocare: `rt-presidente` (file `references/direttivo.md`).
 
 ## Regole ferme
 
 - **Mai** scrivere file, creare cartelle, pubblicare su Tabler World o creare eventi senza conferma esplicita.
 - Ritrovi e direttivi: niente cartelle evento, pack o bollettini. Solo bollettino: niente pack.
-- I verbali del direttivo già chiusi non si modificano (`rt-direttivo`).
+- I verbali del direttivo già chiusi non si modificano (`rt-presidente`, file `references/direttivo.md`).
 - Non inventare date, scadenze o importi: se mancano, chiedili.
 - Decisioni dell'utente ("ignora questo evento del calendario"): salvale (`rtit decisioni …`) così non vengono richieste di nuovo.
 
 ## Collegate
 
 - `rt-presidente` — fonte degli adempimenti e passaggio di consegne.
-- `rt-evento` — completare pack e cose da fare di un evento.
-- `rt-bollettino` — bollettino mancante.
-- `rt-calendario` — data a rischio o eventi nuovi in calendario.
-- `rt-archivio` — doppioni e cartelle dell'anno.
-- `rt-direttivo` — convocazioni e verbali.
+- `rt-evento` — pack e cose da fare, bollettino mancante, data a rischio, eventi nuovi in calendario.
+- `rt-primi-passi` — profilo, doppioni e cartelle dell'anno nell'archivio.
 - `rt-comunicazione` — post e foto degli eventi.

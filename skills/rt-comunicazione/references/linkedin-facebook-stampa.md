@@ -14,7 +14,7 @@ Il vademecum è diviso in quattro file; i rimandi "§" seguono la numerazione or
 
 ## 8. LinkedIn: il volto professionale della Round Table
 
-LinkedIn è il canale con **i margini di crescita più ampi**, ed è già stato **validato sul campo**: il metodo sviluppato da una tavola italiana (nominata nella fonte), partito da **una ventina di contatti selezionati**, ha prodotto **circa il 50% di risposte**, **una decina di prospect** avvicinati alla Tavola, **visibilità sulla stampa locale** e **nuovi soci effettivi**. È lo stesso caso di studio della *Strategia LinkedIn RTIT* (vedi la skill `rt-crescita`, file `references/linkedin.md`).
+LinkedIn è il canale con **i margini di crescita più ampi**, ed è già stato **validato sul campo**: il metodo sviluppato da una tavola italiana (nominata nella fonte), partito da **una ventina di contatti selezionati**, ha prodotto **circa il 50% di risposte**, **una decina di prospect** avvicinati alla Tavola, **visibilità sulla stampa locale** e **nuovi soci effettivi**. È lo stesso caso di studio della *Strategia LinkedIn RTIT* (vedi [linkedin.md](linkedin.md)).
 
 Funziona perché permette di individuare con precisione il profilo del potenziale Tabler (**età, zona, professione**) e perché è il luogo in cui **i giovani professionisti si aspettano di essere contattati** per ragioni professionali.
 
@@ -47,7 +47,7 @@ Funziona perché permette di individuare con precisione il profilo del potenzial
 
 ### 8.4 La pagina della Tavola e i profili personali
 
-**Pagina della Tavola — checklist**: la versione unica, che unisce vademecum e *Strategia LinkedIn*, è nella skill `rt-crescita` (file `references/linkedin.md`, § 1.1). In breve: logo in alta risoluzione nelle versioni ammesse, copertina, descrizione con le **tre anime** (charity, networking, goliardia), link a sito, social e Round Table Events, **almeno un post ogni due settimane**.
+**Pagina della Tavola — checklist**: la versione unica, che unisce vademecum e *Strategia LinkedIn*, è in [linkedin.md](linkedin.md), § 1.1. In breve: logo in alta risoluzione nelle versioni ammesse, copertina, descrizione con le **tre anime** (charity, networking, goliardia), link a sito, social e Round Table Events, **almeno un post ogni due settimane**.
 
 **Profili personali dei soci.** La pagina della Tavola dà credibilità, ma su LinkedIn **sono le persone a generare portata**: i profili personali dei soci sono **il vero moltiplicatore**.
 
@@ -58,7 +58,7 @@ Funziona perché permette di individuare con precisione il profilo del potenzial
 
 ### 8.5 Il contatto diretto: poche regole essenziali
 
-LinkedIn permette di raggiungere professionisti che non conosciamo. **Il metodo completo è nella guida nazionale dedicata** (la *Strategia LinkedIn RTIT*: vedi la skill `rt-crescita`, file `references/linkedin.md`); qui i principi da non violare mai:
+LinkedIn permette di raggiungere professionisti che non conosciamo. **Il metodo completo è nella guida nazionale dedicata** (la *Strategia LinkedIn RTIT*: vedi [linkedin.md](linkedin.md) e [regole-linkedin.md](regole-linkedin.md)); qui i principi da non violare mai:
 
 - **Nessun messaggio di massa.** Solo messaggi personalizzati che **citino qualcosa del profilo** della persona.
 - **Prima la persona, poi l'associazione**: presentati **in due righe**, poi presenta l'evento e il suo **valore professionale**.

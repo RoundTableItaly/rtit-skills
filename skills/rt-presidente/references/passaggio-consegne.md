@@ -1,6 +1,6 @@
 # Passaggio di consegne
 
-Checklist unica del passaggio tra il direttivo uscente e quello entrante, valida per tavola e zona. Le altre skill (`rt-archivio`, `rt-comunicazione`, `rt-cosa-fare`, `rt-primi-passi`, `rt-direttivo`) rimandano qui.
+Checklist unica del passaggio tra il direttivo uscente e quello entrante, valida per tavola e zona. Le altre skill (`rt-primi-passi`, `rt-comunicazione`, `rt-cosa-fare`) e [direttivo.md](direttivo.md) rimandano qui.
 
 > Fonti: Statuto (art. 78 e gli altri articoli citati), Manuale del buon Presidente (CN, 2025/26) e regole operative di questa skill; i numeri tra parentesi (§) rimandano alle sezioni di [manuale-presidente.md](manuale-presidente.md) e i punti (RO n) a [regole-operative.md](regole-operative.md). Le voci senza fonte sono marcate **(prassi consigliata)**. In caso di dubbio prevalgono lo Statuto e le indicazioni del Comitato Nazionale.
 
@@ -17,7 +17,7 @@ Proponi di salvare la checklist compilata come `AAAA-MM-GG Passaggio di consegne
 
 1. Copia la tabella, togli le voci che non riguardano la tavola o la zona.
 2. Per ogni voce compila **Stato** (`fatto` · `da fare` · `non serve`), **Chi** (uscente o entrante) e **Note**.
-3. Le voci `da fare` dopo l'AGM diventano azioni con responsabile e scadenza nel primo verbale del nuovo direttivo (skill `rt-direttivo`).
+3. Le voci `da fare` dopo l'AGM diventano azioni con responsabile e scadenza nel primo verbale del nuovo direttivo ([direttivo.md](direttivo.md)).
 
 ## Checklist
 
@@ -25,7 +25,7 @@ Proponi di salvare la checklist compilata come `AAAA-MM-GG Passaggio di consegne
 
 | Voce | Fonte | Stato | Chi | Note |
 | --- | --- | --- | --- | --- |
-| Archivio condiviso della tavola su un account o drive **della tavola**, non personale | prassi consigliata (skill `rt-archivio`) | | | |
+| Archivio condiviso della tavola su un account o drive **della tavola**, non personale | prassi consigliata (skill `rt-primi-passi`, sezione "Archivio condiviso") | | | |
 | Accessi **da aggiungere**: membri del nuovo direttivo | prassi consigliata | | | |
 | Accessi **da togliere**: chi esce dal direttivo; rigenerare l'indirizzo iCal segreto del calendario | prassi consigliata | | | |
 | Documenti legali al loro posto: `Statuto e regolamenti`, `Fiscale e PEC`, `Banca`, `Loghi e modelli` | prassi consigliata | | | |
@@ -36,7 +36,7 @@ Proponi di salvare la checklist compilata come `AAAA-MM-GG Passaggio di consegne
 
 | Voce | Fonte | Stato | Chi | Note |
 | --- | --- | --- | --- | --- |
-| `_Indice AAAA-AAAA.md` dell'anno che si chiude completo: eventi, bollettini, verbali, decisioni, cose in sospeso | prassi consigliata (skill `rt-archivio`) | | | |
+| `_Indice AAAA-AAAA.md` dell'anno che si chiude completo: eventi, bollettini, verbali, decisioni, cose in sospeso | prassi consigliata (skill `rt-primi-passi`, sezione "Archivio condiviso") | | | |
 | Eventi dell'anno elencati (`rtit eventi`), utili anche per la relazione morale | prassi consigliata | | | |
 
 ### 3. Adempimenti legali
@@ -46,7 +46,7 @@ Proponi di salvare la checklist compilata come `AAAA-MM-GG Passaggio di consegne
 | **Lista degli eletti** comunicata al Segretario Nazionale, subito dopo le elezioni | Statuto, art. 78 c. 4; § 1 riga 17 | | | |
 | **Riunione congiunta** uscente–entrante entro 30 giorni dall'AGM, messa a verbale | art. 78 c. 3; § 1 riga 18; RO 39 | | | |
 | **Segretario** nominato dal nuovo Presidente | art. 49 c. 6 | | | |
-| **Verbale di elezione** del nuovo Presidente e del direttivo, firmato | § 3.3; modello nella skill `rt-direttivo` | | | |
+| **Verbale di elezione** del nuovo Presidente e del direttivo, firmato | § 3.3; modello in [modelli-direttivo.md](modelli-direttivo.md) | | | |
 | **Modello AA5** all'Agenzia delle Entrate per il nuovo legale rappresentante | § 1 riga 1; § 3.1; RO 7 | | | |
 | Cambio dell'**intestatario della PEC**, contestuale all'AA5 | § 1 riga 2; § 3.2; RO 7 | | | |
 | Cambio dell'**intestatario del conto** in banca, con copia firmata del verbale di elezione; conto intestato all'associazione | § 1 riga 3; § 3.3; RO 7–8 | | | |
@@ -102,7 +102,7 @@ Proponi di salvare la checklist compilata come `AAAA-MM-GG Passaggio di consegne
 | Eventi già fissati per l'anno nuovo (date, caparre, impegni presi) | prassi consigliata | | | |
 | Date di HYM, AGM e Assemblea di Zona dell'anno nuovo, se note (App RTIT) | prassi consigliata | | | |
 | Cose in sospeso: azioni aperte, pagamenti, promesse a partner e relatori | prassi consigliata | | | |
-| **Decisioni prese**: registro delle decisioni dell'anno (skill `rt-direttivo`) consegnato | prassi consigliata | | | |
+| **Decisioni prese**: registro delle decisioni dell'anno ([direttivo.md](direttivo.md)) consegnato | prassi consigliata | | | |
 | Materiale di tavola (stendardo, campana, roll-up): dove si trova e chi lo custodisce | prassi consigliata (§ 9.3 per i "furti") | | | |
 
 ### 10. Relazione morale

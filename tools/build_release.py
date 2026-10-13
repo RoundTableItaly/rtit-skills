@@ -38,10 +38,9 @@ PACKAGE = "rtit-skills"  # nome dello zip; il contenuto sta alla radice, senza c
 
 # File del pacchetto Python da includere nelle skill (per chi le usa senza la CLI)
 EXTRA_ASSETS: dict[str, list[Path]] = {
-    "rt-bollettino": [TEMPLATES / "bollettino" / n for n in ("generico.docx", "logo-sinistra.png", "logo-destra.png")],
-    "rt-primi-passi": [TEMPLATES / "profilo-esempio.yaml"],
-    "rt-evento": [TEMPLATES / "pack" / n for n in ("progetto.md", "invitati.md", "spese.md", "evento.md")],
-    "rt-archivio": [TEMPLATES / "pack" / "indice-anno.md"],
+    "rt-evento": [TEMPLATES / "pack" / n for n in ("progetto.md", "invitati.md", "spese.md", "evento.md")]
+    + [TEMPLATES / "bollettino" / n for n in ("generico.docx", "logo-sinistra.png", "logo-destra.png")],
+    "rt-primi-passi": [TEMPLATES / "profilo-esempio.yaml", TEMPLATES / "pack" / "indice-anno.md"],
 }
 
 # Manifest e file di contorno (percorsi relativi alla radice del repository)

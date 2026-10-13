@@ -2,7 +2,7 @@
 
 > Fonte: "Linee guida utilizzo logo" Round Table Italia, AS 2024-2025, versione 2. Distillato per uso con assistenti AI; in caso di dubbio prevale il documento ufficiale (link in fondo).
 
-Mappa di dove è finita ogni pagina della fonte nei file della skill `rt-logo`. Fonte autorevole: il PDF (27 pagine in formato slide 16:9, 1440 × 810 pt). Il PDF non contiene link cliccabili.
+Mappa di dove è finita ogni pagina della fonte nei file della skill `rt-comunicazione` (fino alla versione 0.3.0: skill separata `rt-logo`). Fonte autorevole: il PDF (27 pagine in formato slide 16:9, 1440 × 810 pt). Il PDF non contiene link cliccabili.
 
 **Autore**: **Comitato Nazionale**, anno sociale 2024-2025; **versione 2**, **approvata dal Comitato Nazionale il 14.10.2024**.
 
@@ -12,9 +12,9 @@ Metodo: testo estratto con `pdftotext -layout`; tutte le 27 pagine renderizzate 
 
 File di destinazione (percorsi relativi a questa cartella):
 
-- LG = [linee-guida-logo.md](../../skills/rt-logo/references/linee-guida-logo.md)
-- CK = [checklist-grafica.md](../../skills/rt-logo/references/checklist-grafica.md)
-- SK = [SKILL.md](../../skills/rt-logo/SKILL.md)
+- LG = [linee-guida-logo.md](../../skills/rt-comunicazione/references/linee-guida-logo.md)
+- CK = [checklist-grafica.md](../../skills/rt-comunicazione/references/checklist-grafica.md)
+- SK = [logo.md](../../skills/rt-comunicazione/references/logo.md) (era la `SKILL.md` di `rt-logo`)
 
 ## Mappa pagina per pagina
 

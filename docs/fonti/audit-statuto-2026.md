@@ -90,7 +90,7 @@ Sintesi in [annuario-regolamenti.md](../../skills/rt-conoscenza/references/annua
 
 Applicati ai file: le decisioni 1-49, i punti che lo statuto risolve (date, candidature, quote, rendiconto, adempimenti, ruoli del direttivo, membri, glossario, comunicazione, logo, pin e coin) e le incoerenze minori (slug di esempio, messaggio d'errore del profilo, profilo di esempio, endpoint `/monitor/`, ordine di ricerca del profilo, privacy del profilo, "il direttivo cambia a luglio", rimandi a `rt-comunicazione`, template doppio del post evento, mappe di copertura).
 
-Il 7 ottobre 2026 le correzioni sono state riportate sulla versione 0.2.0 del repository (nuova skill `rt-direttivo`, vademecum della comunicazione diviso in quattro file, nuovi riferimenti di `rt-presidente`): dove qui si cita il "vademecum § N" il contenuto sta ora in `skills/rt-comunicazione/references/` (`ruoli-e-tempi.md`, `instagram.md`, `linkedin-facebook-stampa.md`, `immagine-privacy-errori.md`). La skill `rt-tablerworld` è stata rimossa: gli eventi si caricano su Tabler World dal portale.
+Il 7 ottobre 2026 le correzioni sono state riportate sulla versione 0.2.0 del repository (nuova skill `rt-direttivo`, oggi `rt-presidente/references/direttivo.md`, vademecum della comunicazione diviso in quattro file, nuovi riferimenti di `rt-presidente`): dove qui si cita il "vademecum § N" il contenuto sta ora in `skills/rt-comunicazione/references/` (`ruoli-e-tempi.md`, `instagram.md`, `linkedin-facebook-stampa.md`, `immagine-privacy-errori.md`). La skill `rt-tablerworld` è stata rimossa: gli eventi si caricano su Tabler World dal portale.
 
 ## Punti aperti
 
@@ -104,7 +104,7 @@ Emersi applicando le decisioni: sono conflitti tra i testi o cose che nessuna fo
 - **Assemblea di Zona** (decisione 3): la regola "almeno una volta prima di ogni Assemblea Nazionale" è all'art. 66 c. 2; l'art. 69 riguarda composizione e quorum.
 - **Detrazioni sopra 75.000 € di reddito** (decisione 26): limite da verificare; nei file si rimanda a commercialista o CAF.
 - **Refuso dello statuto**: l'art. 60 c. 1 lett. a rinvia alla "lettera b) dell'articolo 45", che riguarda l'espulsione.
-- I "da verificare" che dipendono solo dalle fonti originali restano elencati nei singoli file: `rt-logo` (linee guida § 20), `rt-comunicazione` (`immagine-privacy-errori.md` § 17), `rt-crescita` (RTIT University § 17, LinkedIn), `rt-presidente` (mappa di copertura).
+- I "da verificare" che dipendono solo dalle fonti originali restano elencati nei singoli file: `rt-comunicazione` (`linee-guida-logo.md` § 20; `immagine-privacy-errori.md` § 17; RTIT University § 17, LinkedIn), `rt-presidente` (mappa di copertura).
 
 ## Eccezioni volute alla regola "nessun dato reale"
 

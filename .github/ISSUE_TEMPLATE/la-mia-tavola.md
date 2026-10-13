@@ -4,7 +4,7 @@ about: Una prassi, un modulo o una regola che le skill non conoscono o sbagliano
 labels: conoscenza
 ---
 
-**Skill coinvolta** (es. rt-bollettino, rt-presidente):
+**Skill coinvolta** (es. rt-evento, rt-presidente):
 
 **Cosa fa oggi l'assistente:**
 

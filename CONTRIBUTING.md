@@ -44,4 +44,4 @@ Rami, versioni e procedura di rilascio: [docs/rilasci.md](docs/rilasci.md).
 
 ## Messaggi di commit
 
-[Conventional Commits](https://www.conventionalcommits.org/): `feat(rt-bollettino): …`, `fix(cli): …`, `docs(rt-presidente): …`.
+[Conventional Commits](https://www.conventionalcommits.org/): `feat(rt-evento): …`, `fix(cli): …`, `docs(rt-presidente): …`.

@@ -4,6 +4,22 @@ Le novità di ogni versione, scritte per chi usa le skill. Formato [Keep a Chang
 
 ## [Non rilasciato]
 
+## [0.4.0] - 2026-10-10
+
+### Cambiato
+
+- Le skill passano da 13 a 6, senza perdere contenuti: `rt-primi-passi` (profilo **e** archivio condiviso), `rt-cosa-fare`, `rt-presidente` (adempimenti **e** direttivo: convocazioni, verbali, registro delle decisioni, verbale di elezione), `rt-evento` (data e calendario, nota evento e pack, bollettino, App RTIT), `rt-comunicazione` (social e stampa, logo e grafiche, crescita e reclutamento), `rt-conoscenza`. Ogni `SKILL.md` resta un indice breve; le procedure lunghe stanno nei `references/` (per esempio `rt-evento/references/bollettino.md`, `rt-presidente/references/direttivo.md`, `rt-comunicazione/references/logo.md`).
+- `rtit profilo verifica` cita i nuovi nomi delle skill.
+
+### Rimosso
+
+- Le skill `rt-archivio`, `rt-direttivo`, `rt-bollettino`, `rt-calendario`, `rt-app-rtit`, `rt-logo` e `rt-crescita`: i loro contenuti sono nelle sei skill qui sopra.
+
+### Da fare dopo l'aggiornamento
+
+- Reinstalla il plugin (o ricarica `rtit-skills.zip`): le vecchie skill spariscono da sole.
+- ChatGPT e Gem di Gemini: sostituisci le `SKILL.md` incollate nelle istruzioni con le nuove e ricarica i file `references/` delle sei skill.
+
 ## [0.3.0] - 2026-10-07
 
 ### Aggiunto

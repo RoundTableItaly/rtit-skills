@@ -20,8 +20,8 @@ File collegati:
 
 - Checklist da telefono, per fase: [checklist-evento.md](checklist-evento.md)
 - Modelli di testo: [template-testi.md](template-testi.md)
-- Regole complete su logo, colori, font, pin e coin: vedi la skill `rt-logo` (file `references/linee-guida-logo.md`)
-- Metodo LinkedIn per il reclutamento: vedi la skill `rt-crescita` (file `references/linkedin.md`)
+- Regole complete su logo, colori, font, pin e coin: vedi [logo.md](logo.md) e [linee-guida-logo.md](linee-guida-logo.md)
+- Metodo LinkedIn per il reclutamento: vedi [regole-linkedin.md](regole-linkedin.md) e [linkedin.md](linkedin.md)
 
 ---
 

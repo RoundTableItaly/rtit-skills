@@ -2,12 +2,12 @@
 
 > Fonte: "Strategia LinkedIn — Round Table Italia". Distillato per uso con assistenti AI; in caso di dubbio prevale il documento originale.
 
-Mappa di dove è finita ogni pagina e sezione della fonte (PDF di 6 pagine, A4) nei file della skill `rt-crescita`. Fonte autorevole: il PDF. È stato confrontato con un estratto testuale in Markdown della stessa fonte. Percorsi relativi a questa cartella.
+Mappa di dove è finita ogni pagina e sezione della fonte (PDF di 6 pagine, A4) nei file della skill `rt-comunicazione` (fino alla versione 0.3.0: skill separata `rt-crescita`). Fonte autorevole: il PDF. È stato confrontato con un estratto testuale in Markdown della stessa fonte. Percorsi relativi a questa cartella.
 
 File di destinazione:
 
-- LI = [linkedin.md](../../skills/rt-crescita/references/linkedin.md)
-- RL = [regole-linkedin.md](../../skills/rt-crescita/references/regole-linkedin.md)
+- LI = [linkedin.md](../../skills/rt-comunicazione/references/linkedin.md)
+- RL = [regole-linkedin.md](../../skills/rt-comunicazione/references/regole-linkedin.md)
 
 ## Mappa sezione per sezione
 

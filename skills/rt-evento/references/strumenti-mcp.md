@@ -2,7 +2,7 @@
 
 Server MCP del progetto TW-Events (app.roundtable.it). Dati pubblici, sola lettura, nessun dato dei soci. Organizzazione: nazione → zone (`area`) → tavole (`club`), identificate da **slug**, il nome breve usato negli indirizzi web dell'App (es. `zona-esempio`, `rt-99-esempio`).
 
-Questo file copre il **server MCP**. L'API REST usata dalla CLI `rtit app-rtit` (stessi dati, identificativi numerici) è descritta nella skill `rt-calendario` (file `references/app-rtit.md`).
+Questo file copre il **server MCP**. L'API REST usata dalla CLI `rtit app-rtit` (stessi dati, identificativi numerici) è descritta in [app-rtit-cli.md](app-rtit-cli.md).
 
 ## Collegarlo
 
@@ -56,4 +56,4 @@ I nomi dei menu possono cambiare da una versione all'altra delle app.
 - `organization_unit_id` (numero) serve alla CLI `rtit` (profilo `app_rtit.organization_unit_id`) ed è il campo `id` di `list_organization_units`. Lo slug serve all'MCP.
 - Le statistiche seguono l'**anno sociale**, che inizia il giorno dopo l'AGM (Statuto, art. 76: è una domenica, perché l'AGM si tiene di sabato, tra il 15 maggio e il 30 giugno, di solito il primo sabato di giugno). Nei nomi degli strumenti e dei parametri si chiama `statutory_year`. La descrizione del server parla di "primo sabato di giugno": fanno fede le date restituite da `list_statutory_years`.
 - Nell'App compaiono solo gli eventi pubblici (`external` e `announcement` su Tabler World).
-- `check_date_conflicts` e `scan_conflicts` servono a scegliere le date dei nostri eventi: il flusso è nella skill `rt-calendario`.
+- `check_date_conflicts` e `scan_conflicts` servono a scegliere le date dei nostri eventi: il flusso è in [date-e-calendario.md](date-e-calendario.md).
